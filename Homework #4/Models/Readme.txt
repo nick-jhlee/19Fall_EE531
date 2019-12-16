@@ -1,4 +1,4 @@
-1. Xavier Initialization
+1. Xavier Initialization (xavier._uniform_)
 
 2. Without dropouts
 
