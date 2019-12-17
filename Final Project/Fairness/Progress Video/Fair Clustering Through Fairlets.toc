@@ -1,0 +1,12 @@
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{Preliminaries}{7}{0}{2}
+\beamer@sectionintoc {3}{Fairlet decomposition and fair clustering}{31}{0}{3}
+\beamer@sectionintoc {4}{Algorithms}{42}{0}{4}
+\beamer@subsectionintoc {4}{1}{(1, k)-fair center problem}{43}{0}{4}
+\beamer@subsectionintoc {4}{2}{(1/t', k)-fair center problem}{54}{0}{4}
+\beamer@subsectionintoc {4}{3}{(1/t', k)-fair median problem}{70}{0}{4}
+\beamer@subsectionintoc {4}{4}{Hardness}{77}{0}{4}
+\beamer@sectionintoc {5}{Experiments}{91}{0}{5}
+\beamer@sectionintoc {6}{Summary}{100}{0}{6}
+\beamer@sectionintoc {7}{Future Research}{105}{0}{7}
+\beamer@sectionintoc {8}{Roles and Responsibilities}{109}{0}{8}

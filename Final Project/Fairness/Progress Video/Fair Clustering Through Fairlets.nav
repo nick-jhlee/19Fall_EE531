@@ -1,0 +1,155 @@
+\headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
+\headcommand {\beamer@framepages {1}{1}}
+\headcommand {\slideentry {0}{0}{2}{2/2}{}{0}}
+\headcommand {\beamer@framepages {2}{2}}
+\headcommand {\beamer@sectionpages {1}{2}}
+\headcommand {\beamer@subsectionpages {1}{2}}
+\headcommand {\sectionentry {1}{Introduction}{3}{Introduction}{0}}
+\headcommand {\slideentry {1}{0}{1}{3/3}{}{0}}
+\headcommand {\beamer@framepages {3}{3}}
+\headcommand {\slideentry {1}{0}{2}{4/6}{}{0}}
+\headcommand {\beamer@framepages {4}{6}}
+\headcommand {\beamer@sectionpages {3}{6}}
+\headcommand {\beamer@subsectionpages {3}{6}}
+\headcommand {\sectionentry {2}{Preliminaries}{7}{Preliminaries}{0}}
+\headcommand {\slideentry {2}{0}{1}{7/7}{}{0}}
+\headcommand {\beamer@framepages {7}{7}}
+\headcommand {\slideentry {2}{0}{2}{8/10}{}{0}}
+\headcommand {\beamer@framepages {8}{10}}
+\headcommand {\slideentry {2}{0}{3}{11/11}{}{0}}
+\headcommand {\beamer@framepages {11}{11}}
+\headcommand {\slideentry {2}{0}{4}{12/12}{}{0}}
+\headcommand {\beamer@framepages {12}{12}}
+\headcommand {\slideentry {2}{0}{5}{13/16}{}{0}}
+\headcommand {\beamer@framepages {13}{16}}
+\headcommand {\slideentry {2}{0}{6}{17/18}{}{0}}
+\headcommand {\beamer@framepages {17}{18}}
+\headcommand {\slideentry {2}{0}{7}{19/21}{}{0}}
+\headcommand {\beamer@framepages {19}{21}}
+\headcommand {\slideentry {2}{0}{8}{22/22}{}{0}}
+\headcommand {\beamer@framepages {22}{22}}
+\headcommand {\slideentry {2}{0}{9}{23/25}{}{0}}
+\headcommand {\beamer@framepages {23}{25}}
+\headcommand {\slideentry {2}{0}{10}{26/27}{}{0}}
+\headcommand {\beamer@framepages {26}{27}}
+\headcommand {\slideentry {2}{0}{11}{28/30}{}{0}}
+\headcommand {\beamer@framepages {28}{30}}
+\headcommand {\beamer@sectionpages {7}{30}}
+\headcommand {\beamer@subsectionpages {7}{30}}
+\headcommand {\sectionentry {3}{Fairlet decomposition and fair clustering}{31}{Fairlet decomposition and fair clustering}{0}}
+\headcommand {\slideentry {3}{0}{1}{31/31}{}{0}}
+\headcommand {\beamer@framepages {31}{31}}
+\headcommand {\slideentry {3}{0}{2}{32/32}{}{0}}
+\headcommand {\beamer@framepages {32}{32}}
+\headcommand {\slideentry {3}{0}{3}{33/38}{}{0}}
+\headcommand {\beamer@framepages {33}{38}}
+\headcommand {\slideentry {3}{0}{4}{39/40}{}{0}}
+\headcommand {\beamer@framepages {39}{40}}
+\headcommand {\slideentry {3}{0}{5}{41/41}{}{0}}
+\headcommand {\beamer@framepages {41}{41}}
+\headcommand {\beamer@sectionpages {31}{41}}
+\headcommand {\beamer@subsectionpages {31}{41}}
+\headcommand {\sectionentry {4}{Algorithms}{42}{Algorithms}{0}}
+\headcommand {\slideentry {4}{0}{1}{42/42}{}{0}}
+\headcommand {\beamer@framepages {42}{42}}
+\headcommand {\beamer@subsectionpages {42}{42}}
+\headcommand {\beamer@subsectionentry {0}{4}{1}{43}{(1, k)-fair center problem}}
+\headcommand {\slideentry {4}{1}{1}{43/43}{(1, k)-fair center problem}{0}}
+\headcommand {\beamer@framepages {43}{43}}
+\headcommand {\slideentry {4}{1}{2}{44/47}{(1, k)-fair center problem}{0}}
+\headcommand {\beamer@framepages {44}{47}}
+\headcommand {\slideentry {4}{1}{3}{48/48}{(1, k)-fair center problem}{0}}
+\headcommand {\beamer@framepages {48}{48}}
+\headcommand {\slideentry {4}{1}{4}{49/49}{(1, k)-fair center problem}{0}}
+\headcommand {\beamer@framepages {49}{49}}
+\headcommand {\slideentry {4}{1}{5}{50/52}{(1, k)-fair center problem}{0}}
+\headcommand {\beamer@framepages {50}{52}}
+\headcommand {\slideentry {4}{1}{6}{53/53}{(1, k)-fair center problem}{0}}
+\headcommand {\beamer@framepages {53}{53}}
+\headcommand {\beamer@subsectionpages {43}{53}}
+\headcommand {\beamer@subsectionentry {0}{4}{2}{54}{(1/t', k)-fair center problem}}
+\headcommand {\slideentry {4}{2}{1}{54/54}{(1/t', k)-fair center problem}{0}}
+\headcommand {\beamer@framepages {54}{54}}
+\headcommand {\slideentry {4}{2}{2}{55/57}{(1/t', k)-fair center problem}{0}}
+\headcommand {\beamer@framepages {55}{57}}
+\headcommand {\slideentry {4}{2}{3}{58/58}{(1/t', k)-fair center problem}{0}}
+\headcommand {\beamer@framepages {58}{58}}
+\headcommand {\slideentry {4}{2}{4}{59/61}{(1/t', k)-fair center problem}{0}}
+\headcommand {\beamer@framepages {59}{61}}
+\headcommand {\slideentry {4}{2}{5}{62/63}{(1/t', k)-fair center problem}{0}}
+\headcommand {\beamer@framepages {62}{63}}
+\headcommand {\slideentry {4}{2}{6}{64/64}{(1/t', k)-fair center problem}{0}}
+\headcommand {\beamer@framepages {64}{64}}
+\headcommand {\slideentry {4}{2}{7}{65/65}{(1/t', k)-fair center problem}{0}}
+\headcommand {\beamer@framepages {65}{65}}
+\headcommand {\slideentry {4}{2}{8}{66/66}{(1/t', k)-fair center problem}{0}}
+\headcommand {\beamer@framepages {66}{66}}
+\headcommand {\slideentry {4}{2}{9}{67/67}{(1/t', k)-fair center problem}{0}}
+\headcommand {\beamer@framepages {67}{67}}
+\headcommand {\slideentry {4}{2}{10}{68/68}{(1/t', k)-fair center problem}{0}}
+\headcommand {\beamer@framepages {68}{68}}
+\headcommand {\slideentry {4}{2}{11}{69/69}{(1/t', k)-fair center problem}{0}}
+\headcommand {\beamer@framepages {69}{69}}
+\headcommand {\beamer@subsectionpages {54}{69}}
+\headcommand {\beamer@subsectionentry {0}{4}{3}{70}{(1/t', k)-fair median problem}}
+\headcommand {\slideentry {4}{3}{1}{70/70}{(1/t', k)-fair median problem}{0}}
+\headcommand {\beamer@framepages {70}{70}}
+\headcommand {\slideentry {4}{3}{2}{71/75}{(1/t', k)-fair median problem}{0}}
+\headcommand {\beamer@framepages {71}{75}}
+\headcommand {\slideentry {4}{3}{3}{76/76}{(1/t', k)-fair median problem}{0}}
+\headcommand {\beamer@framepages {76}{76}}
+\headcommand {\beamer@subsectionpages {70}{76}}
+\headcommand {\beamer@subsectionentry {0}{4}{4}{77}{Hardness}}
+\headcommand {\slideentry {4}{4}{1}{77/77}{Hardness}{0}}
+\headcommand {\beamer@framepages {77}{77}}
+\headcommand {\slideentry {4}{4}{2}{78/82}{Hardness}{0}}
+\headcommand {\beamer@framepages {78}{82}}
+\headcommand {\slideentry {4}{4}{3}{83/85}{Hardness}{0}}
+\headcommand {\beamer@framepages {83}{85}}
+\headcommand {\slideentry {4}{4}{4}{86/87}{Hardness}{0}}
+\headcommand {\beamer@framepages {86}{87}}
+\headcommand {\slideentry {4}{4}{5}{88/88}{Hardness}{0}}
+\headcommand {\beamer@framepages {88}{88}}
+\headcommand {\slideentry {4}{4}{6}{89/89}{Hardness}{0}}
+\headcommand {\beamer@framepages {89}{89}}
+\headcommand {\slideentry {4}{4}{7}{90/90}{Hardness}{0}}
+\headcommand {\beamer@framepages {90}{90}}
+\headcommand {\beamer@sectionpages {42}{90}}
+\headcommand {\beamer@subsectionpages {77}{90}}
+\headcommand {\sectionentry {5}{Experiments}{91}{Experiments}{0}}
+\headcommand {\slideentry {5}{0}{1}{91/91}{}{0}}
+\headcommand {\beamer@framepages {91}{91}}
+\headcommand {\slideentry {5}{0}{2}{92/94}{}{0}}
+\headcommand {\beamer@framepages {92}{94}}
+\headcommand {\slideentry {5}{0}{3}{95/98}{}{0}}
+\headcommand {\beamer@framepages {95}{98}}
+\headcommand {\slideentry {5}{0}{4}{99/99}{}{0}}
+\headcommand {\beamer@framepages {99}{99}}
+\headcommand {\beamer@sectionpages {91}{99}}
+\headcommand {\beamer@subsectionpages {91}{99}}
+\headcommand {\sectionentry {6}{Summary}{100}{Summary}{0}}
+\headcommand {\slideentry {6}{0}{1}{100/100}{}{0}}
+\headcommand {\beamer@framepages {100}{100}}
+\headcommand {\slideentry {6}{0}{2}{101/104}{}{0}}
+\headcommand {\beamer@framepages {101}{104}}
+\headcommand {\beamer@sectionpages {100}{104}}
+\headcommand {\beamer@subsectionpages {100}{104}}
+\headcommand {\sectionentry {7}{Future Research}{105}{Future Research}{0}}
+\headcommand {\slideentry {7}{0}{1}{105/105}{}{0}}
+\headcommand {\beamer@framepages {105}{105}}
+\headcommand {\slideentry {7}{0}{2}{106/108}{}{0}}
+\headcommand {\beamer@framepages {106}{108}}
+\headcommand {\beamer@sectionpages {105}{108}}
+\headcommand {\beamer@subsectionpages {105}{108}}
+\headcommand {\sectionentry {8}{Roles and Responsibilities}{109}{Roles and Responsibilities}{0}}
+\headcommand {\slideentry {8}{0}{1}{109/109}{}{0}}
+\headcommand {\beamer@framepages {109}{109}}
+\headcommand {\slideentry {8}{0}{2}{110/111}{}{0}}
+\headcommand {\beamer@framepages {110}{111}}
+\headcommand {\slideentry {8}{0}{3}{112/112}{}{0}}
+\headcommand {\beamer@framepages {112}{112}}
+\headcommand {\beamer@partpages {1}{112}}
+\headcommand {\beamer@subsectionpages {109}{112}}
+\headcommand {\beamer@sectionpages {109}{112}}
+\headcommand {\beamer@documentpages {112}}
+\headcommand {\gdef \inserttotalframenumber {59}}
