@@ -1,0 +1,33 @@
+[0] Config.pm:304> INFO - This is Biber 2.12
+[0] Config.pm:307> INFO - Logfile is 'How Powerful are GNNs.blg'
+[29] biber-MSWIN32:315> INFO - === 
+[60] Biber.pm:371> INFO - Reading 'How Powerful are GNNs.bcf'
+[149] Biber.pm:886> INFO - Using all citekeys in bib section 0
+[161] Biber.pm:4093> INFO - Processing section 0
+[173] Biber.pm:4254> INFO - Looking for bibtex format file 'References.bib' for section 0
+[182] bibtex.pm:1523> INFO - LaTeX decoding ...
+[234] bibtex.pm:1340> INFO - Found BibTeX data source 'References.bib'
+[264] Utils.pm:193> WARN - month field 'Jan' in entry 'Wu2019' is not an integer - this will probably not sort properly.
+[396] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/icml/2017' in entry 'Lei2017' - ignoring (section 0)
+[396] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/nips/2017' in entry 'Hamilton2017' - ignoring (section 0)
+[396] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/iclr/2017' in entry 'Kipf2017' - ignoring (section 0)
+[396] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/iclr/2019' in entry 'Xu2019' - ignoring (section 0)
+[397] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/aaai/2018' in entry 'Zhang2018' - ignoring (section 0)
+[397] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/nips/2018' in entry 'Ying2018' - ignoring (section 0)
+[397] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/stoc/2016' in entry 'Babai2016' - ignoring (section 0)
+[397] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/focs/FOCS20' in entry 'Babai1979' - ignoring (section 0)
+[397] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/nips/2017' in entry 'Zaheer2017' - ignoring (section 0)
+[397] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/icml/2018' in entry 'Xu2018' - ignoring (section 0)
+[397] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/kdd/2015' in entry 'Yanardag2015' - ignoring (section 0)
+[398] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/icml/2017' in entry 'Gilmer2017' - ignoring (section 0)
+[398] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/iclr/2014' in entry 'Bruna2014' - ignoring (section 0)
+[398] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/nips/2016' in entry 'Defferrard2016' - ignoring (section 0)
+[398] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/aaai/2018' in entry 'Li2018' - ignoring (section 0)
+[398] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/nips/2016' in entry 'Atwood2016' - ignoring (section 0)
+[427] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[427] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[427] Biber.pm:3921> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[428] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[452] bbl.pm:636> INFO - Writing 'How Powerful are GNNs.bbl' with encoding 'UTF-8'
+[465] bbl.pm:739> INFO - Output to How Powerful are GNNs.bbl
+[470] Biber.pm:110> INFO - WARNINGS: 17

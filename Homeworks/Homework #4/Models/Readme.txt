@@ -5,8 +5,8 @@
 3. Both 1 and 2
 
 
-Dark red: 
-Bright red: 
+Dark red: train accuracy
+Bright red: validation accuracy
 
-Dark blue: 
-Bright blue: 
+Dark blue: train loss
+Bright blue: validation loss

@@ -1,0 +1,27 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {2}{Previous / Related Works}{10}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {3}{Preliminaries}{22}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {4}{Fairlet decomposition and fair clustering}{46}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {5}{Algorithms}{56}{0}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {5}{1}{(1, k)-fair center problem}{57}{0}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {5}{2}{(1/t', k)-fair center problem}{68}{0}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {5}{3}{(1/t', k)-fair median problem}{83}{0}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {5}{4}{Hardness}{89}{0}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {6}{Experiments}{95}{0}{6}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {7}{Summary / Future Research}{104}{0}{7}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {8}{Summary of Fairness}{112}{0}{8}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {9}{References}{115}{0}{9}

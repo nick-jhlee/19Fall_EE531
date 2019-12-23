@@ -1,0 +1,719 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Arya2004}{article}{}
+      \name{author}{6}{}{%
+        {{hash=dfcb8ff506849663bde6f3888f91ddc5}{%
+           family={Arya},
+           familyi={A\bibinitperiod},
+           given={Vijay},
+           giveni={V\bibinitperiod}}}%
+        {{hash=addf06d061ef2eaee8ea772a57852cc2}{%
+           family={Garg},
+           familyi={G\bibinitperiod},
+           given={Naveen},
+           giveni={N\bibinitperiod}}}%
+        {{hash=a2c37efa7aeac0109f5fc9bd4487cbf4}{%
+           family={Khandekar},
+           familyi={K\bibinitperiod},
+           given={Rohit},
+           giveni={R\bibinitperiod}}}%
+        {{hash=18192c515fa7c86f17584d104a1d0ee6}{%
+           family={Meyerson},
+           familyi={M\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7121c06f984ed9c47804fbe342b9f14e}{%
+           family={Munagala},
+           familyi={M\bibinitperiod},
+           given={Kamesh},
+           giveni={K\bibinitperiod}}}%
+        {{hash=6ef2669511e4da7ecc9a74a9bdd87686}{%
+           family={Pandit},
+           familyi={P\bibinitperiod},
+           given={Vinayaka},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{9a56e24e1d86798a01ea7a3a2cf482e7}
+      \strng{fullhash}{e26f445301bd95d0699d0119d67b6750}
+      \strng{bibnamehash}{9a56e24e1d86798a01ea7a3a2cf482e7}
+      \strng{authorbibnamehash}{9a56e24e1d86798a01ea7a3a2cf482e7}
+      \strng{authornamehash}{9a56e24e1d86798a01ea7a3a2cf482e7}
+      \strng{authorfullhash}{e26f445301bd95d0699d0119d67b6750}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{SIAM} J. Comput.}
+      \field{number}{3}
+      \field{title}{Local Search Heuristics for k-Median and Facility Location Problems}
+      \field{volume}{33}
+      \field{year}{2004}
+      \true{nocite}
+      \field{pages}{544\bibrangedash 562}
+      \range{pages}{19}
+    \endentry
+    \entry{Biddle2006}{book}{}
+      \name{author}{1}{}{%
+        {{hash=c86261d48b6719ced3b2b06cf9c65c2f}{%
+           family={Biddle},
+           familyi={B\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{c86261d48b6719ced3b2b06cf9c65c2f}
+      \strng{fullhash}{c86261d48b6719ced3b2b06cf9c65c2f}
+      \strng{bibnamehash}{c86261d48b6719ced3b2b06cf9c65c2f}
+      \strng{authorbibnamehash}{c86261d48b6719ced3b2b06cf9c65c2f}
+      \strng{authornamehash}{c86261d48b6719ced3b2b06cf9c65c2f}
+      \strng{authorfullhash}{c86261d48b6719ced3b2b06cf9c65c2f}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{title}{Adverse Impact and Test Validation: A Practitioner's Guide to Valid and Defensible Employment Testing}
+      \field{year}{2006}
+      \true{nocite}
+    \endentry
+    \entry{Chierichetti2017}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=f807fa2fe4307d1530863b4cf6847813}{%
+           family={Chierichetti},
+           familyi={C\bibinitperiod},
+           given={Flavio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=8b41fe0754fd3864ac9f18e92f6daf24}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Ravi},
+           giveni={R\bibinitperiod}}}%
+        {{hash=5681ea16e5d63a76143c93b584264e8c}{%
+           family={Lattanzi},
+           familyi={L\bibinitperiod},
+           given={Silvio},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b6fa64c3195f752823d0759db3cbca91}{%
+           family={Vassilvitskii},
+           familyi={V\bibinitperiod},
+           given={Sergei},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{7b8e17385e9e53833ec84a9df88ab64a}
+      \strng{fullhash}{4b5ec044b0a837fbccc48e150889d035}
+      \strng{bibnamehash}{7b8e17385e9e53833ec84a9df88ab64a}
+      \strng{authorbibnamehash}{7b8e17385e9e53833ec84a9df88ab64a}
+      \strng{authornamehash}{7b8e17385e9e53833ec84a9df88ab64a}
+      \strng{authorfullhash}{4b5ec044b0a837fbccc48e150889d035}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Neural Information Processing Systems 30: Annual Conference on Neural Information Processing Systems 2017, 4-9 December 2017, Long Beach, CA, {USA}}
+      \field{title}{Fair Clustering Through Fairlets}
+      \field{year}{2017}
+      \true{nocite}
+      \field{pages}{5029\bibrangedash 5037}
+      \range{pages}{9}
+    \endentry
+    \entry{Dwork2012}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=c6d8866083f4c03af5e37e032df87089}{%
+           family={Dwork},
+           familyi={D\bibinitperiod},
+           given={Cynthia},
+           giveni={C\bibinitperiod}}}%
+        {{hash=e771760b6d0d33f8b4dfd907d8d57ac2}{%
+           family={Hardt},
+           familyi={H\bibinitperiod},
+           given={Moritz},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1813007d96ae80284b22fd39a7996df9}{%
+           family={Pitassi},
+           familyi={P\bibinitperiod},
+           given={Toniann},
+           giveni={T\bibinitperiod}}}%
+        {{hash=6ff631f4e02261486e4a7d47b7aa7d0b}{%
+           family={Reingold},
+           familyi={R\bibinitperiod},
+           given={Omer},
+           giveni={O\bibinitperiod}}}%
+        {{hash=936deb796814f7b18da88b71fa5ae940}{%
+           family={Zemel},
+           familyi={Z\bibinitperiod},
+           given={Richard\bibnamedelima S.},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{f676b30234623eef69e5ed6be9df75b0}
+      \strng{fullhash}{fe2e567ee2eb868ace4a5efbe677d347}
+      \strng{bibnamehash}{f676b30234623eef69e5ed6be9df75b0}
+      \strng{authorbibnamehash}{f676b30234623eef69e5ed6be9df75b0}
+      \strng{authornamehash}{f676b30234623eef69e5ed6be9df75b0}
+      \strng{authorfullhash}{fe2e567ee2eb868ace4a5efbe677d347}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Innovations in Theoretical Computer Science 2012, Cambridge, MA, USA, January 8-10, 2012}
+      \field{title}{Fairness through awareness}
+      \field{year}{2012}
+      \true{nocite}
+      \field{pages}{214\bibrangedash 226}
+      \range{pages}{13}
+    \endentry
+    \entry{DBLP:conf/aies/FarnadiBG18}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=f1ad113fa28575948943057a90b2f0b8}{%
+           family={Farnadi},
+           familyi={F\bibinitperiod},
+           given={Golnoosh},
+           giveni={G\bibinitperiod}}}%
+        {{hash=0f95c793ed8b9110246ecee99ff22332}{%
+           family={Babaki},
+           familyi={B\bibinitperiod},
+           given={Behrouz},
+           giveni={B\bibinitperiod}}}%
+        {{hash=88e86bf57e4d0841ba9010d52469237c}{%
+           family={Getoor},
+           familyi={G\bibinitperiod},
+           given={Lise},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{304e4de6ad91fa85309278ca6c1827bb}
+      \strng{fullhash}{304e4de6ad91fa85309278ca6c1827bb}
+      \strng{bibnamehash}{304e4de6ad91fa85309278ca6c1827bb}
+      \strng{authorbibnamehash}{304e4de6ad91fa85309278ca6c1827bb}
+      \strng{authornamehash}{304e4de6ad91fa85309278ca6c1827bb}
+      \strng{authorfullhash}{304e4de6ad91fa85309278ca6c1827bb}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 2018 {AAAI/ACM} Conference on AI, Ethics, and Society, {AIES} 2018, New Orleans, LA, USA, February 02-03, 2018}
+      \field{title}{Fairness in Relational Domains}
+      \field{year}{2018}
+      \true{nocite}
+      \field{pages}{108\bibrangedash 114}
+      \range{pages}{7}
+    \endentry
+    \entry{Feldman2015}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=244c96635798701847a1e6c990863733}{%
+           family={Feldman},
+           familyi={F\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b2b40e7a0fdfbdbcf9af2da7c8e59417}{%
+           family={Friedler},
+           familyi={F\bibinitperiod},
+           given={Sorelle\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=2dfff61dbc9e69984218b6fa859febd5}{%
+           family={Moeller},
+           familyi={M\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=de216a4cef9daa2d1fce563e8b498941}{%
+           family={Scheidegger},
+           familyi={S\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod}}}%
+        {{hash=aaeb9142f2e1590450061f637edb6845}{%
+           family={Venkatasubramanian},
+           familyi={V\bibinitperiod},
+           given={Suresh},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{3b1cce86496aaf13c09dd79ffe2475b2}
+      \strng{fullhash}{1ece2bf8f6d5dee69a99b249fc47c0ce}
+      \strng{bibnamehash}{3b1cce86496aaf13c09dd79ffe2475b2}
+      \strng{authorbibnamehash}{3b1cce86496aaf13c09dd79ffe2475b2}
+      \strng{authornamehash}{3b1cce86496aaf13c09dd79ffe2475b2}
+      \strng{authorfullhash}{1ece2bf8f6d5dee69a99b249fc47c0ce}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 21th {ACM} {SIGKDD} International Conference on Knowledge Discovery and Data Mining, Sydney, NSW, Australia, August 10-13, 2015}
+      \field{title}{Certifying and Removing Disparate Impact}
+      \field{year}{2015}
+      \true{nocite}
+      \field{pages}{259\bibrangedash 268}
+      \range{pages}{10}
+    \endentry
+    \entry{Gonzalez1985}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ba884e7630b1c6a423897f96a9e8b019}{%
+           family={Gonzalez},
+           familyi={G\bibinitperiod},
+           given={Teofilo\bibnamedelima F.},
+           giveni={T\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{ba884e7630b1c6a423897f96a9e8b019}
+      \strng{fullhash}{ba884e7630b1c6a423897f96a9e8b019}
+      \strng{bibnamehash}{ba884e7630b1c6a423897f96a9e8b019}
+      \strng{authorbibnamehash}{ba884e7630b1c6a423897f96a9e8b019}
+      \strng{authornamehash}{ba884e7630b1c6a423897f96a9e8b019}
+      \strng{authorfullhash}{ba884e7630b1c6a423897f96a9e8b019}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Theoretical Computer Science}
+      \field{title}{Clustering to Minimize the Maximum Intercluster Distance}
+      \field{volume}{38}
+      \field{year}{1985}
+      \true{nocite}
+      \field{pages}{293\bibrangedash 306}
+      \range{pages}{14}
+    \endentry
+    \entry{Hlaca2016}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=f61139302fbfd971a47c2d6dc0974dff}{%
+           family={Grgić-Hlacǎ},
+           familyi={G\bibinithyphendelim H\bibinitperiod},
+           given={Nina},
+           giveni={N\bibinitperiod}}}%
+        {{hash=651ed744d2d757bbdb4ef8519fdb9745}{%
+           family={Zafar},
+           familyi={Z\bibinitperiod},
+           given={Muhammad\bibnamedelima Bilal},
+           giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=dbf52af009e972037dc69055660e4a65}{%
+           family={Gummadi},
+           familyi={G\bibinitperiod},
+           given={Krishna\bibnamedelima P.},
+           giveni={K\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=89be134d6b955c508c4267860047bdd9}{%
+           family={Weller},
+           familyi={W\bibinitperiod},
+           given={Adrian},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{464c3ed5fc33ba30783bd7c5b0b10c99}
+      \strng{fullhash}{c1226d0782ae64bf1b426a3985293c30}
+      \strng{bibnamehash}{464c3ed5fc33ba30783bd7c5b0b10c99}
+      \strng{authorbibnamehash}{464c3ed5fc33ba30783bd7c5b0b10c99}
+      \strng{authornamehash}{464c3ed5fc33ba30783bd7c5b0b10c99}
+      \strng{authorfullhash}{c1226d0782ae64bf1b426a3985293c30}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Symposium on Machine Learning and the Law at the 29th Conference on Neural Information Processing Systems (NIPS 2016), Barcelona, Spain.}
+      \field{title}{The Case for Process Fairness in Learning: Feature Selection for Fair Decision Making}
+      \field{year}{2016}
+      \true{nocite}
+    \endentry
+    \entry{Griggs1971}{book}{}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{labeltitlesource}{title}
+      \field{title}{Griggs v. Duke Power Co., 401 U.S. 424 (Supreme Court of the United States 1971).}
+      \true{nocite}
+    \endentry
+    \entry{Hardt2016}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=e771760b6d0d33f8b4dfd907d8d57ac2}{%
+           family={Hardt},
+           familyi={H\bibinitperiod},
+           given={Moritz},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b0b481f252064438215c11421a5d102f}{%
+           family={Price},
+           familyi={P\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=34451c97b5a5bad6fcb6513573d1f94d}{%
+           family={Srebro},
+           familyi={S\bibinitperiod},
+           given={Nati},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{daa06160e0ce1d4b4e7db1c0e9e5879a}
+      \strng{fullhash}{daa06160e0ce1d4b4e7db1c0e9e5879a}
+      \strng{bibnamehash}{daa06160e0ce1d4b4e7db1c0e9e5879a}
+      \strng{authorbibnamehash}{daa06160e0ce1d4b4e7db1c0e9e5879a}
+      \strng{authornamehash}{daa06160e0ce1d4b4e7db1c0e9e5879a}
+      \strng{authorfullhash}{daa06160e0ce1d4b4e7db1c0e9e5879a}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Neural Information Processing Systems 29: Annual Conference on Neural Information Processing Systems 2016, December 5-10, 2016, Barcelona, Spain}
+      \field{title}{Equality of Opportunity in Supervised Learning}
+      \field{year}{2016}
+      \true{nocite}
+      \field{pages}{3315\bibrangedash 3323}
+      \range{pages}{9}
+    \endentry
+    \entry{Kamishima2012}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=deda01c09bf5becd0c4d49b99fd0c096}{%
+           family={Kamishima},
+           familyi={K\bibinitperiod},
+           given={Toshihiro},
+           giveni={T\bibinitperiod}}}%
+        {{hash=688fc78f0fdd83d6a6a087950cfcdd3f}{%
+           family={Akaho},
+           familyi={A\bibinitperiod},
+           given={Shotaro},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ff2e29c565fa4cc865595ea1636f716e}{%
+           family={Asoh},
+           familyi={A\bibinitperiod},
+           given={Hideki},
+           giveni={H\bibinitperiod}}}%
+        {{hash=e50997be633aa84a225f937f2e76437e}{%
+           family={Sakuma},
+           familyi={S\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{23eee66c64cc9f2da18753269b1c3859}
+      \strng{fullhash}{d10e331baf9e1205b368922e4f60b347}
+      \strng{bibnamehash}{23eee66c64cc9f2da18753269b1c3859}
+      \strng{authorbibnamehash}{23eee66c64cc9f2da18753269b1c3859}
+      \strng{authornamehash}{23eee66c64cc9f2da18753269b1c3859}
+      \strng{authorfullhash}{d10e331baf9e1205b368922e4f60b347}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Machine Learning and Knowledge Discovery in Databases - European Conference, {ECML} {PKDD} 2012, Bristol, UK, September 24-28, 2012. Proceedings, Part {II}}
+      \field{title}{Fairness-Aware Classifier with Prejudice Remover Regularizer}
+      \field{year}{2012}
+      \true{nocite}
+      \field{pages}{35\bibrangedash 50}
+      \range{pages}{16}
+    \endentry
+    \entry{Kusner2017}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=37d0d7a3ba0cb7a7253c7b690ce4e8c6}{%
+           family={Kusner},
+           familyi={K\bibinitperiod},
+           given={Matt\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=0f9e9e8dd3806a3da91f6c93f57e3a8f}{%
+           family={Loftus},
+           familyi={L\bibinitperiod},
+           given={Joshua\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=c40407f768dd3e8b296a11750ad77f41}{%
+           family={Russell},
+           familyi={R\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+        {{hash=4047ee6235adca502c24f37317e79d8e}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Ricardo},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{5ed8ad78ef3e89e7f60ebcdfc729fd12}
+      \strng{fullhash}{cea0f9d33eeddacbf68ec79b5855e047}
+      \strng{bibnamehash}{5ed8ad78ef3e89e7f60ebcdfc729fd12}
+      \strng{authorbibnamehash}{5ed8ad78ef3e89e7f60ebcdfc729fd12}
+      \strng{authornamehash}{5ed8ad78ef3e89e7f60ebcdfc729fd12}
+      \strng{authorfullhash}{cea0f9d33eeddacbf68ec79b5855e047}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Neural Information Processing Systems 30: Annual Conference on Neural Information Processing Systems 2017, 4-9 December 2017, Long Beach, CA, {USA}}
+      \field{title}{Counterfactual Fairness}
+      \field{year}{2017}
+      \true{nocite}
+      \field{pages}{4066\bibrangedash 4076}
+      \range{pages}{11}
+    \endentry
+    \entry{Li2013}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=315491df795741e3047cd93d0e2782d4}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Shi},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a8121723fec40d2bb3f1a992ccf73f9f}{%
+           family={Svensson},
+           familyi={S\bibinitperiod},
+           given={Ola},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{a87f6fda82a21b40bed189dcf7ec1fd0}
+      \strng{fullhash}{a87f6fda82a21b40bed189dcf7ec1fd0}
+      \strng{bibnamehash}{a87f6fda82a21b40bed189dcf7ec1fd0}
+      \strng{authorbibnamehash}{a87f6fda82a21b40bed189dcf7ec1fd0}
+      \strng{authornamehash}{a87f6fda82a21b40bed189dcf7ec1fd0}
+      \strng{authorfullhash}{a87f6fda82a21b40bed189dcf7ec1fd0}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Symposium on Theory of Computing Conference, STOC'13, Palo Alto, CA, USA, June 1-4, 2013}
+      \field{title}{Approximating k-median via pseudo-approximation}
+      \field{year}{2013}
+      \true{nocite}
+      \field{pages}{901\bibrangedash 910}
+      \range{pages}{10}
+    \endentry
+    \entry{Lichman2013}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=0cb85d986221fbf03da6f78fb6484bbf}{%
+           family={Lichman},
+           familyi={L\bibinitperiod},
+           given={Mosche},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7e22b7e9ee70b692c9d25e9ce68133b3}{%
+           family={Bache},
+           familyi={B\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {University of California, Irvine, School of Information}%
+        {Computer Sciences}%
+      }
+      \strng{namehash}{64ca87881177e7660087ab493ed9db11}
+      \strng{fullhash}{64ca87881177e7660087ab493ed9db11}
+      \strng{bibnamehash}{64ca87881177e7660087ab493ed9db11}
+      \strng{authorbibnamehash}{64ca87881177e7660087ab493ed9db11}
+      \strng{authornamehash}{64ca87881177e7660087ab493ed9db11}
+      \strng{authorfullhash}{64ca87881177e7660087ab493ed9db11}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{UCI} Machine Learning Repository}
+      \field{year}{2013}
+      \true{nocite}
+      \verb{urlraw}
+      \verb http://archive.ics.uci.edu/ml
+      \endverb
+      \verb{url}
+      \verb http://archive.ics.uci.edu/ml
+      \endverb
+    \endentry
+    \entry{Mehrabi2019}{article}{}
+      \name{author}{5}{}{%
+        {{hash=e49a830517defa430474d9c2b5c22d83}{%
+           family={{Mehrabi}},
+           familyi={M\bibinitperiod},
+           given={Ninareh},
+           giveni={N\bibinitperiod}}}%
+        {{hash=6fc2e21e9c786462d54f7e2eeae61c19}{%
+           family={{Morstatter}},
+           familyi={M\bibinitperiod},
+           given={Fred},
+           giveni={F\bibinitperiod}}}%
+        {{hash=125158a659e4885af8901c5155a4e57a}{%
+           family={{Saxena}},
+           familyi={S\bibinitperiod},
+           given={Nripsuta},
+           giveni={N\bibinitperiod}}}%
+        {{hash=8aea0a421db201a447f5fec22e73a92f}{%
+           family={{Lerman}},
+           familyi={L\bibinitperiod},
+           given={Kristina},
+           giveni={K\bibinitperiod}}}%
+        {{hash=73b781905368dfe2cc66cef5e33e0d32}{%
+           family={{Galstyan}},
+           familyi={G\bibinitperiod},
+           given={Aram},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{cc037d6c925e3502b4bada6900e5b052}
+      \strng{fullhash}{70df8b815290d4668300a842f0dfe8bc}
+      \strng{bibnamehash}{cc037d6c925e3502b4bada6900e5b052}
+      \strng{authorbibnamehash}{cc037d6c925e3502b4bada6900e5b052}
+      \strng{authornamehash}{cc037d6c925e3502b4bada6900e5b052}
+      \strng{authorfullhash}{70df8b815290d4668300a842f0dfe8bc}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{arXiv e-prints}
+      \field{month}{8}
+      \field{title}{{A Survey on Bias and Fairness in Machine Learning}}
+      \field{year}{2019}
+      \true{nocite}
+      \verb{eprint}
+      \verb 1908.09635
+      \endverb
+      \keyw{Computer Science - Machine Learning}
+    \endentry
+    \entry{Rosner2019}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=d2ba1dafa3e6034cba421eff3f40cfed}{%
+           family={Rösner},
+           familyi={R\bibinitperiod},
+           given={Clemens},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Universität Bonn}%
+      }
+      \strng{namehash}{d2ba1dafa3e6034cba421eff3f40cfed}
+      \strng{fullhash}{d2ba1dafa3e6034cba421eff3f40cfed}
+      \strng{bibnamehash}{d2ba1dafa3e6034cba421eff3f40cfed}
+      \strng{authorbibnamehash}{d2ba1dafa3e6034cba421eff3f40cfed}
+      \strng{authornamehash}{d2ba1dafa3e6034cba421eff3f40cfed}
+      \strng{authorfullhash}{d2ba1dafa3e6034cba421eff3f40cfed}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Constrained Clustering Problems and Parity Games}
+      \field{type}{Dissertation zur Erlangung des Doktorgrades (Dr. rer. nat.) der Mathematisch-Naturwissenschaftlichen Fakultät der Rheinischen Friedrich-Wilhelms-Universität Bonn}
+      \field{year}{2019}
+      \true{nocite}
+    \endentry
+    \entry{uniform}{book}{}
+      \field{sortinit}{U}
+      \field{sortinithash}{36a2444f5238e0dcf4bb59704df6624d}
+      \field{labeltitlesource}{title}
+      \field{title}{Uniform Guidelines on Employee Selection Procedures}
+      \true{nocite}
+    \endentry
+    \entry{Zafar2017}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=651ed744d2d757bbdb4ef8519fdb9745}{%
+           family={Zafar},
+           familyi={Z\bibinitperiod},
+           given={Muhammad\bibnamedelima Bilal},
+           giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=86077c699c3bcb4f9fecce395f1e6f41}{%
+           family={Valera},
+           familyi={V\bibinitperiod},
+           given={Isabel},
+           giveni={I\bibinitperiod}}}%
+        {{hash=5e6430cf44e6876cce21aa9689db432a}{%
+           family={Gomez{-}Rodriguez},
+           familyi={G\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=dbf52af009e972037dc69055660e4a65}{%
+           family={Gummadi},
+           familyi={G\bibinitperiod},
+           given={Krishna\bibnamedelima P.},
+           giveni={K\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{5a3b59ce7c7b687c4ebf7f069fab18c2}
+      \strng{fullhash}{c0bccefb25f94faf2cc6a0e110b3ed1b}
+      \strng{bibnamehash}{5a3b59ce7c7b687c4ebf7f069fab18c2}
+      \strng{authorbibnamehash}{5a3b59ce7c7b687c4ebf7f069fab18c2}
+      \strng{authornamehash}{5a3b59ce7c7b687c4ebf7f069fab18c2}
+      \strng{authorfullhash}{c0bccefb25f94faf2cc6a0e110b3ed1b}
+      \field{sortinit}{Z}
+      \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 20th International Conference on Artificial Intelligence and Statistics, {AISTATS} 2017, 20-22 April 2017, Fort Lauderdale, FL, {USA}}
+      \field{title}{Fairness Constraints: Mechanisms for Fair Classification}
+      \field{year}{2017}
+      \true{nocite}
+      \field{pages}{962\bibrangedash 970}
+      \range{pages}{9}
+    \endentry
+    \entry{Zemel2013}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=936deb796814f7b18da88b71fa5ae940}{%
+           family={Zemel},
+           familyi={Z\bibinitperiod},
+           given={Richard\bibnamedelima S.},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=497a9e1774032d32e4123020bfd16b7a}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=fe49ec9b6f902b79d166c1f25405c088}{%
+           family={Swersky},
+           familyi={S\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=1813007d96ae80284b22fd39a7996df9}{%
+           family={Pitassi},
+           familyi={P\bibinitperiod},
+           given={Toniann},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c6d8866083f4c03af5e37e032df87089}{%
+           family={Dwork},
+           familyi={D\bibinitperiod},
+           given={Cynthia},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{1d7aa8cf0b3df2334e9ad95864761e75}
+      \strng{fullhash}{ee405275dab6622ccfe1e8ec7dab2fc8}
+      \strng{bibnamehash}{1d7aa8cf0b3df2334e9ad95864761e75}
+      \strng{authorbibnamehash}{1d7aa8cf0b3df2334e9ad95864761e75}
+      \strng{authornamehash}{1d7aa8cf0b3df2334e9ad95864761e75}
+      \strng{authorfullhash}{ee405275dab6622ccfe1e8ec7dab2fc8}
+      \field{sortinit}{Z}
+      \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 30th International Conference on Machine Learning, {ICML} 2013, Atlanta, GA, USA, 16-21 June 2013}
+      \field{title}{Learning Fair Representations}
+      \field{year}{2013}
+      \true{nocite}
+      \field{pages}{325\bibrangedash 333}
+      \range{pages}{9}
+    \endentry
+    \entry{Zhong2019}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=3ef7008d5935f51cbebbcee6e61fdc59}{%
+           family={Zhong},
+           familyi={Z\bibinitperiod},
+           given={Ziyuan},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{3ef7008d5935f51cbebbcee6e61fdc59}
+      \strng{fullhash}{3ef7008d5935f51cbebbcee6e61fdc59}
+      \strng{bibnamehash}{3ef7008d5935f51cbebbcee6e61fdc59}
+      \strng{authorbibnamehash}{3ef7008d5935f51cbebbcee6e61fdc59}
+      \strng{authornamehash}{3ef7008d5935f51cbebbcee6e61fdc59}
+      \strng{authorfullhash}{3ef7008d5935f51cbebbcee6e61fdc59}
+      \field{sortinit}{Z}
+      \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Medium - Towards Data Science}
+      \field{month}{7}
+      \field{title}{A Tutorial on Fairness in Machine Learning}
+      \field{year}{2019}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://towardsdatascience.com/a-tutorial-on-fairness-in-machine-learning-3ff8ba1040cb
+      \endverb
+      \verb{url}
+      \verb https://towardsdatascience.com/a-tutorial-on-fairness-in-machine-learning-3ff8ba1040cb
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
