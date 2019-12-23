@@ -1,5 +1,18 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [0] Config.pm:307> INFO - Logfile is 'Report.blg'
-[27] biber-MSWIN32:315> INFO - === 
-[474] Utils.pm:209> ERROR - Cannot find control file 'Report.bcf'! - Did latex run successfully on your .tex file before you ran biber?
-[474] Biber.pm:114> INFO - ERRORS: 1
+[26] biber-MSWIN32:315> INFO - === 
+[54] Biber.pm:371> INFO - Reading 'Report.bcf'
+[137] Biber.pm:889> INFO - Found 3 citekeys in bib section 0
+[149] Biber.pm:4093> INFO - Processing section 0
+[161] Biber.pm:4254> INFO - Looking for bibtex format file 'bibs/references.bib' for section 0
+[164] bibtex.pm:1523> INFO - LaTeX decoding ...
+[173] bibtex.pm:1340> INFO - Found BibTeX data source 'bibs/references.bib'
+[193] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/aistats/2010' in entry 'Glorot2010' - ignoring (section 0)
+[194] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/iclr/2017' in entry 'Kipf2017' - ignoring (section 0)
+[202] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[202] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[202] Biber.pm:3921> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[203] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[211] bbl.pm:636> INFO - Writing 'Report.bbl' with encoding 'UTF-8'
+[212] bbl.pm:739> INFO - Output to Report.bbl
+[217] Biber.pm:110> INFO - WARNINGS: 2

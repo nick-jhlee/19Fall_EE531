@@ -1,5 +1,15 @@
-\chapter{Evaluation}
-For my evaluation, I've used {\bf Tensorboard} for plotting the learning(loss) curve and performance(accuracy) curve for both training and validating processes. Also, I've used external open source library({\bf pretty-print-confusion-matrix}\footnote{\url{https://github.com/wcipriano/pretty-print-confusion-matrix}}) for plotting the confusion matrix for the test set.
+\chapter{Results}
+%For my evaluation, I've used {\bf Tensorboard} for plotting the learning(loss) curve and performance(accuracy) curve for both training and validating processes. Also, I've used external open source library({\bf pretty-print-confusion-matrix}\footnote{\url{https://github.com/wcipriano/pretty-print-confusion-matrix}}) for plotting the confusion matrix for the test set.
+Here,
+\begin{itemize}
+\item Original model: One with uniform initialization with dropouts(rate=0.5).
+
+\item Ver. 1: Original model with Xavier (Uniform) Initialization
+
+\item Ver. 2: Original model without dropouts
+
+\item Ver. 3: Original model with Xavier Initialization and without dropouts
+\end{itemize}
 
 In all the plots, x-axis corresponds to the epoch.
 As for the graphs,
@@ -23,21 +33,21 @@ As for the graphs,
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.7\linewidth]{evaluation/fig/Accuracy0.png}
+\includegraphics[width=0.7\linewidth]{results/fig/Accuracy0.png}
 \caption{Accuracy graph}
 \label{fig:accuracy0}
 \end{figure}
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.7\linewidth]{evaluation/fig/Loss0.png}
+\includegraphics[width=0.7\linewidth]{results/fig/Loss0.png}
 \caption{Loss graph}
 \label{fig:evaluation0}
 \end{figure}
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.6\linewidth]{evaluation/fig/confusion0.png}
+\includegraphics[width=0.6\linewidth]{results/fig/confusion0.png}
 \caption{Confusion matrix}
 \label{fig:confusion0}
 \end{figure}
@@ -47,21 +57,21 @@ As for the graphs,
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.7\linewidth]{evaluation/fig/Accuracy1.png}
+\includegraphics[width=0.7\linewidth]{results/fig/Accuracy1.png}
 \caption{Accuracy graph}
 \label{fig:accuracy1}
 \end{figure}
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.7\linewidth]{evaluation/fig/Loss1.png}
+\includegraphics[width=0.7\linewidth]{results/fig/Loss1.png}
 \caption{Loss graph}
 \label{fig:evaluation1}
 \end{figure}
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.6\linewidth]{evaluation/fig/confusion1.png}
+\includegraphics[width=0.6\linewidth]{results/fig/confusion1.png}
 \caption{Confusion matrix}
 \label{fig:confusion1}
 \end{figure}
@@ -71,21 +81,21 @@ As for the graphs,
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.7\linewidth]{evaluation/fig/Accuracy2.png}
+\includegraphics[width=0.7\linewidth]{results/fig/Accuracy2.png}
 \caption{Accuracy graph}
 \label{fig:accuracy2}
 \end{figure}
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.7\linewidth]{evaluation/fig/Loss2.png}
+\includegraphics[width=0.7\linewidth]{results/fig/Loss2.png}
 \caption{Loss graph}
 \label{fig:evaluation2}
 \end{figure}
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.6\linewidth]{evaluation/fig/confusion2.png}
+\includegraphics[width=0.6\linewidth]{results/fig/confusion2.png}
 \caption{Confusion matrix}
 \label{fig:confusion2}
 \end{figure}
@@ -95,21 +105,21 @@ As for the graphs,
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.7\linewidth]{evaluation/fig/Accuracy3.png}
+\includegraphics[width=0.7\linewidth]{results/fig/Accuracy3.png}
 \caption{Accuracy graph}
 \label{fig:accuracy3}
 \end{figure}
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.7\linewidth]{evaluation/fig/Loss3.png}
+\includegraphics[width=0.7\linewidth]{results/fig/Loss3.png}
 \caption{Loss graph}
 \label{fig:evaluation3}
 \end{figure}
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.6\linewidth]{evaluation/fig/confusion3.png}
+\includegraphics[width=0.6\linewidth]{results/fig/confusion3.png}
 \caption{Confusion matrix}
 \label{fig:confusion3}
 \end{figure}

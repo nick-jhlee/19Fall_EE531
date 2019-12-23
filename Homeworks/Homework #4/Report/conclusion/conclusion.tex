@@ -1,1 +1,8 @@
 \chapter{Conclusion}
+
+It seems that the slight modifications that I've tried did nothing to improve the model's accuracy. Indeed, the original model reports accuracy of 78.40\%, which tied with Ver. 2 and is strictly greater than the other two versions.
+
+This accuracy is actually lower than the reported accuracy from Kipf \& Welling, which is actually 81.5\%.
+I can't really explain why this is the case... But one guess is that maybe getting rid of the bias term might increase the accuracy? (<-- just a wild guess)
+
+One interesting observation is that Ver. 3, the model with the most complexity out of the 4 tested, performed the worst with accuracy 77.54\%. It shows that adding in feature/model complexity doesn't always increase the accuracy; it might even decrease it!

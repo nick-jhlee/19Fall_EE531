@@ -1,7 +1,7 @@
 \documentclass[a4paper, twoside]{report}
 
 \usepackage[english]{babel}
-\usepackage[utf8x]{inputenc}
+\usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{listings}
 \usepackage{hyperref}
@@ -11,9 +11,15 @@
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage[colorinlistoftodos]{todonotes}
+\usepackage[backend=biber]{biblatex}
+
+\DeclareMathOperator{\relu}{ReLU}
+\DeclareMathOperator{\softmax}{softmax}
+
+\addbibresource{bibs/references.bib}
 
 %% Sets page size and margins
-\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry} 
 
 \title{Semi-supervised graph node classification of CORA dataset using GCN}
 \author{Junghyun Lee}
@@ -30,16 +36,15 @@ The algorithm is based upon the work by Kipf \& Welling, 2016.
 \end{abstract}
  
 \tableofcontents
-\listoffigures
-\listoftables
 
-\input{introduction/introduction.tex}
 \input{implementation/implementation.tex}
-\input{evaluation/evaluation.tex}
+\input{results/results.tex}
 \input{conclusion/conclusion.tex}
 
-\bibliographystyle{unsrt}
-\bibliography{bibs/sample}
+\notecite{}
+\printbibliography 
+%\bibliographystyle{unsrt}
+%\bibliography{bibs/references}
 \addcontentsline{toc}{chapter}{Bibliography}
 
 \end{document}

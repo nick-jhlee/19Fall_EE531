@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.12.15)  23 DEC 2019 14:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.12.15)  24 DEC 2019 00:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -48,20 +48,6 @@ File: babel.def 2018/11/13 3.27 Babel common definitions
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
-
-(c:/texlive/2018/texmf-dist/tex/latex/ucs/utf8x.def
-File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
-))
-(c:/texlive/2018/texmf-dist/tex/latex/ucs/ucs.sty
-Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
-
-(c:/texlive/2018/texmf-dist/tex/latex/ucs/data/uni-global.def
-File: uni-global.def 2013/05/13 UCS: Unicode global data
-)
-\uc@secondtry=\count91
-\uc@combtoks=\toks16
-\uc@combtoksb=\toks17
-\uc@temptokena=\toks18
 )
 (c:/texlive/2018/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
@@ -73,25 +59,25 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 (c:/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
 (c:/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks19
+\KV@toks@=\toks16
 )
-\lst@mode=\count92
+\lst@mode=\count91
 \lst@gtempboxa=\box27
-\lst@token=\toks20
-\lst@length=\count93
+\lst@token=\toks17
+\lst@length=\count92
 \lst@currlwidth=\dimen104
-\lst@column=\count94
-\lst@pos=\count95
+\lst@column=\count93
+\lst@pos=\count94
 \lst@lostspace=\dimen105
 \lst@width=\dimen106
-\lst@newlines=\count96
-\lst@lineno=\count97
+\lst@newlines=\count95
+\lst@lineno=\count96
 \lst@maxwidth=\dimen107
 
 (c:/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
-\c@lstnumber=\count98
-\lst@skipnumbers=\count99
+\c@lstnumber=\count97
+\lst@skipnumbers=\count98
 \lst@framebox=\box28
 )
 (c:/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
@@ -156,13 +142,15 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen108
-\Hy@linkcounter=\count100
-\Hy@pagecounter=\count101
+\Hy@linkcounter=\count99
+\Hy@pagecounter=\count100
 
 (c:/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count102
+\Hy@SavedSpaceFactor=\count101
 
 (c:/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -174,7 +162,7 @@ Package hyperref Info: Plain pages OFF on input line 4534.
 Package hyperref Info: Backreferencing OFF on input line 4539.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4772.
-\c@Hy@tempcnt=\count103
+\c@Hy@tempcnt=\count102
 
 (c:/texlive/2018/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
@@ -182,7 +170,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5125.
 \XeTeXLinkMargin=\dimen109
-\Fld@menulength=\count104
+\Fld@menulength=\count103
 \Field@Width=\dimen110
 \Fld@charsize=\dimen111
 Package hyperref Info: Hyper figures OFF on input line 6380.
@@ -194,16 +182,16 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6405.
 Package hyperref Info: PDF/A mode OFF on input line 6410.
 LaTeX Info: Redefining \ref on input line 6450.
 LaTeX Info: Redefining \pageref on input line 6454.
-\Hy@abspage=\count105
-\c@Item=\count106
-\c@Hfootnote=\count107
+\Hy@abspage=\count104
+\c@Item=\count105
+\c@Hfootnote=\count106
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (c:/texlive/2018/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
-\Fld@listcount=\count108
-\c@bookmark@seq@number=\count109
+\Fld@listcount=\count107
+\c@bookmark@seq@number=\count108
 
 (c:/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
@@ -239,10 +227,10 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigbottomskip=\skip46
 \subfigcapmargin=\dimen113
 \subfiglabelskip=\skip47
-\c@subfigure=\count110
-\c@lofdepth=\count111
-\c@subtable=\count112
-\c@lotdepth=\count113
+\c@subfigure=\count109
+\c@lofdepth=\count110
+\c@subtable=\count111
+\c@lotdepth=\count112
 
 ****************************************
 * Local config file subfigure.cfg used *
@@ -261,7 +249,7 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks21
+\@emptytoks=\toks18
 \ex@=\dimen114
 ))
 (c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
@@ -271,13 +259,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count114
+\inf@bad=\count113
 LaTeX Info: Redefining \frac on input line 223.
-\uproot@=\count115
-\leftroot@=\count116
+\uproot@=\count114
+\leftroot@=\count115
 LaTeX Info: Redefining \overline on input line 385.
-\classnum@=\count117
-\DOTSCASE@=\count118
+\classnum@=\count116
+\DOTSCASE@=\count117
 LaTeX Info: Redefining \ldots on input line 482.
 LaTeX Info: Redefining \dots on input line 485.
 LaTeX Info: Redefining \cdots on input line 606.
@@ -286,26 +274,26 @@ LaTeX Info: Redefining \cdots on input line 606.
 \big@size=\dimen116
 LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
-\macc@depth=\count119
-\c@MaxMatrixCols=\count120
+\macc@depth=\count118
+\c@MaxMatrixCols=\count119
 \dotsspace@=\muskip11
-\c@parentequation=\count121
-\dspbrk@lvl=\count122
-\tag@help=\toks22
-\row@=\count123
-\column@=\count124
-\maxfields@=\count125
-\andhelp@=\toks23
+\c@parentequation=\count120
+\dspbrk@lvl=\count121
+\tag@help=\toks19
+\row@=\count122
+\column@=\count123
+\maxfields@=\count124
+\andhelp@=\toks20
 \eqnshift@=\dimen117
 \alignsep@=\dimen118
 \tagshift@=\dimen119
 \tagwidth@=\dimen120
 \totwidth@=\dimen121
 \lineht@=\dimen122
-\@envbody=\toks24
+\@envbody=\toks21
 \multlinegap=\skip51
 \multlinetaggap=\skip52
-\mathdisplay@stack=\toks25
+\mathdisplay@stack=\toks22
 LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
 )
@@ -326,10 +314,10 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (c:/texlive/2018/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (c:/texlive/2018/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks26
-\XKV@tempa@toks=\toks27
+\XKV@toks=\toks23
+\XKV@tempa@toks=\toks24
 )
-\XKV@depth=\count126
+\XKV@depth=\count125
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (c:/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
@@ -353,7 +341,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 (c:/texlive/2018/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (c:/texlive/2018/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks28
+\pgfutil@everybye=\toks25
 \pgfutil@tempdima=\dimen125
 \pgfutil@tempdimb=\dimen126
 
@@ -375,11 +363,11 @@ Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks29
-\pgfkeys@temptoks=\toks30
+\pgfkeys@pathtoks=\toks26
+\pgfkeys@temptoks=\toks27
 
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks31
+\pgfkeys@tmptoks=\toks28
 ))
 \pgf@x=\dimen127
 \pgf@y=\dimen128
@@ -391,13 +379,13 @@ Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 \pgf@yc=\dimen134
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count127
-\c@pgf@countb=\count128
-\c@pgf@countc=\count129
-\c@pgf@countd=\count130
-\t@pgf@toka=\toks32
-\t@pgf@tokb=\toks33
-\t@pgf@tokc=\toks34
+\c@pgf@counta=\count126
+\c@pgf@countb=\count127
+\c@pgf@countc=\count128
+\c@pgf@countd=\count129
+\t@pgf@toka=\toks29
+\t@pgf@tokb=\toks30
+\t@pgf@tokc=\toks31
  (c:/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
@@ -411,8 +399,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count131
-\pgfsyssoftpath@bigbuffer@items=\count132
+\pgfsyssoftpath@smallbuffer@items=\count130
+\pgfsyssoftpath@bigbuffer@items=\count131
 )
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
@@ -424,11 +412,11 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen135
-\pgfmath@count=\count133
+\pgfmath@count=\count132
 \pgfmath@box=\box32
-\pgfmath@toks=\toks35
-\pgfmath@stack@operand=\toks36
-\pgfmath@stack@operation=\toks37
+\pgfmath@toks=\toks32
+\pgfmath@stack@operand=\toks33
+\pgfmath@stack@operation=\toks34
 )
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.te
@@ -448,7 +436,7 @@ x)
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithm
 etics.code.tex)))
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count134
+\c@pgfmathroundto@lastzeros=\count133
 ))
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
@@ -484,7 +472,7 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box33
 \pgf@hbox=\box34
 \pgf@layerbox@main=\box35
-\pgf@picture@serial@count=\count135
+\pgf@picture@serial@count=\count134
 )
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
 .tex
@@ -515,7 +503,7 @@ File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen159
-\pgf@sys@shading@range@num=\count136
+\pgf@sys@shading@range@num=\count135
 )
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
@@ -561,8 +549,8 @@ Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen162
 \pgffor@skip=\dimen163
-\pgffor@stack=\toks38
-\pgffor@toks=\toks39
+\pgffor@stack=\toks35
+\pgffor@toks=\toks36
 ))
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
@@ -570,7 +558,7 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.co
 de.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count137
+\pgf@plot@mark@count=\count136
 \pgfplotmarksize=\dimen164
 )
 \tikz@lastx=\dimen165
@@ -583,18 +571,18 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikz@figbox@bg=\box39
 \tikz@tempbox=\box40
 \tikz@tempbox@bg=\box41
-\tikztreelevel=\count138
-\tikznumberofchildren=\count139
-\tikznumberofcurrentchild=\count140
-\tikz@fig@count=\count141
+\tikztreelevel=\count137
+\tikznumberofchildren=\count138
+\tikznumberofcurrentchild=\count139
+\tikz@fig@count=\count140
 
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count142
-\pgfmatrixcurrentcolumn=\count143
-\pgf@matrix@numberofcolumns=\count144
+\pgfmatrixcurrentrow=\count141
+\pgfmatrixcurrentcolumn=\count142
+\pgf@matrix@numberofcolumns=\count143
 )
-\tikz@expandcount=\count145
+\tikz@expandcount=\count144
 
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarytopaths.code.tex
@@ -617,24 +605,237 @@ x
 File: pgflibraryfadings.code.tex 2008/02/07 v3.0.1a (rcs-revision 1.3)
 ))) (c:/texlive/2018/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count146
-\calc@Bcount=\count147
+\calc@Acount=\count145
+\calc@Bcount=\count146
 \calc@Adimen=\dimen171
 \calc@Bdimen=\dimen172
 \calc@Askip=\skip53
 \calc@Bskip=\skip54
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count148
+\calc@Ccount=\count147
 \calc@Cskip=\skip55
 )
-\c@@todonotes@numberoftodonotes=\count149
+\c@@todonotes@numberoftodonotes=\count148
 )
+(c:/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2018/11/02 v3.12 programmable bibliographies (PK/MW)
+
+(c:/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count149
+)
+(c:/texlive/2018/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count150
+
+(c:/texlive/2018/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count151
+\c@listtotal=\count152
+\c@listcount=\count153
+\c@liststart=\count154
+\c@liststop=\count155
+\c@citecount=\count156
+\c@citetotal=\count157
+\c@multicitecount=\count158
+\c@multicitetotal=\count159
+\c@instcount=\count160
+\c@maxnames=\count161
+\c@minnames=\count162
+\c@maxitems=\count163
+\c@minitems=\count164
+\c@citecounter=\count165
+\c@maxcitecounter=\count166
+\c@savedcitecounter=\count167
+\c@uniquelist=\count168
+\c@uniquename=\count169
+\c@refsection=\count170
+\c@refsegment=\count171
+\c@maxextratitle=\count172
+\c@maxextratitleyear=\count173
+\c@maxextraname=\count174
+\c@maxextradate=\count175
+\c@maxextraalpha=\count176
+\c@abbrvpenalty=\count177
+\c@highnamepenalty=\count178
+\c@lownamepenalty=\count179
+\c@maxparens=\count180
+\c@parenlevel=\count181
+\blx@tempcnta=\count182
+\blx@tempcntb=\count183
+\blx@tempcntc=\count184
+\blx@maxsection=\count185
+\blx@maxsegment@0=\count186
+\blx@notetype=\count187
+\blx@parenlevel@text=\count188
+\blx@parenlevel@foot=\count189
+\blx@sectionciteorder@0=\count190
+\blx@entrysetcounter=\count191
+\labelnumberwidth=\skip56
+\labelalphawidth=\skip57
+\biblabelsep=\skip58
+\bibitemsep=\skip59
+\bibnamesep=\skip60
+\bibinitsep=\skip61
+\bibparsep=\skip62
+\bibhang=\skip63
+\blx@bcfin=\read2
+\blx@bcfout=\write4
+\c@mincomprange=\count192
+\c@maxcomprange=\count193
+\c@mincompwidth=\count194
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(c:/texlive/2018/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2018/11/02 v3.12 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count195
+\c@savedafterword=\count196
+\c@annotator=\count197
+\c@savedannotator=\count198
+\c@author=\count199
+\c@savedauthor=\count266
+\c@bookauthor=\count267
+\c@savedbookauthor=\count268
+\c@commentator=\count269
+\c@savedcommentator=\count270
+\c@editor=\count271
+\c@savededitor=\count272
+\c@editora=\count273
+\c@savededitora=\count274
+\c@editorb=\count275
+\c@savededitorb=\count276
+\c@editorc=\count277
+\c@savededitorc=\count278
+\c@foreword=\count279
+\c@savedforeword=\count280
+\c@holder=\count281
+\c@savedholder=\count282
+\c@introduction=\count283
+\c@savedintroduction=\count284
+\c@namea=\count285
+\c@savednamea=\count286
+\c@nameb=\count287
+\c@savednameb=\count288
+\c@namec=\count289
+\c@savednamec=\count290
+\c@translator=\count291
+\c@savedtranslator=\count292
+\c@shortauthor=\count293
+\c@savedshortauthor=\count294
+\c@shorteditor=\count295
+\c@savedshorteditor=\count296
+\c@labelname=\count297
+\c@savedlabelname=\count298
+\c@institution=\count299
+\c@savedinstitution=\count300
+\c@lista=\count301
+\c@savedlista=\count302
+\c@listb=\count303
+\c@savedlistb=\count304
+\c@listc=\count305
+\c@savedlistc=\count306
+\c@listd=\count307
+\c@savedlistd=\count308
+\c@liste=\count309
+\c@savedliste=\count310
+\c@listf=\count311
+\c@savedlistf=\count312
+\c@location=\count313
+\c@savedlocation=\count314
+\c@organization=\count315
+\c@savedorganization=\count316
+\c@origlocation=\count317
+\c@savedoriglocation=\count318
+\c@origpublisher=\count319
+\c@savedorigpublisher=\count320
+\c@publisher=\count321
+\c@savedpublisher=\count322
+\c@language=\count323
+\c@savedlanguage=\count324
+\c@origlanguage=\count325
+\c@savedoriglanguage=\count326
+\c@pageref=\count327
+\c@savedpageref=\count328
+\shorthandwidth=\skip64
+\shortjournalwidth=\skip65
+\shortserieswidth=\skip66
+\shorttitlewidth=\skip67
+\shortauthorwidth=\skip68
+\shorteditorwidth=\skip69
+\locallabelnumberwidth=\skip70
+\locallabelalphawidth=\skip71
+\localshorthandwidth=\skip72
+\localshortjournalwidth=\skip73
+\localshortserieswidth=\skip74
+\localshorttitlewidth=\skip75
+\localshortauthorwidth=\skip76
+\localshorteditorwidth=\skip77
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(c:/texlive/2018/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(c:/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
+\c@textcitecount=\count329
+\c@textcitetotal=\count330
+\c@textcitemaxnames=\count331
+\c@biburlnumpenalty=\count332
+\c@biburlucpenalty=\count333
+\c@biburllcpenalty=\count334
+\c@smartand=\count335
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(c:/texlive/2018/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(c:/texlive/2018/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count336
+\c@bbx:relatedtotal=\count337
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(c:/texlive/2018/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2018/11/02 v3.12 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(c:/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+))
 (c:/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2018/04/16 v5.8 Page Geometry
-\Gm@cnth=\count150
-\Gm@cntv=\count151
-\c@Gm@tempcnt=\count152
+\Gm@cnth=\count338
+\Gm@cntv=\count339
+\c@Gm@tempcnt=\count340
 \Gm@bindingoffset=\dimen173
 \Gm@wd@mp=\dimen174
 \Gm@odd@mp=\dimen175
@@ -643,77 +844,70 @@ Package: geometry 2018/04/16 v5.8 Page Geometry
 \Gm@layoutheight=\dimen178
 \Gm@layouthoffset=\dimen179
 \Gm@layoutvoffset=\dimen180
-\Gm@dimlist=\toks40
-) (./Report.aux
-
-LaTeX Warning: Label `fig:fig2sub1' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:fig2sub1' multiply defined.
-
-
-LaTeX Warning: Label `fig:fig2sub2' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:fig2sub2' multiply defined.
-
-
-LaTeX Warning: Label `fig:fig2' multiply defined.
-
+\Gm@dimlist=\toks37
 )
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(c:/texlive/2018/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
+)
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count341
+\@quotereset=\count342
+(./Report.aux)
 \openout1 = `Report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
- (c:/texlive/2018/texmf-dist/tex/latex/ucs/ucsencs.def
-File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
-)
-\c@lstlisting=\count153
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+\c@lstlisting=\count343
 \AtBeginShipoutBox=\box42
-Package hyperref Info: Link coloring OFF on input line 22.
-
-(c:/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
+Package hyperref Info: Link coloring OFF on input line 28.
+ (c:/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (c:/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count154
+\c@section@level=\count344
 )
-LaTeX Info: Redefining \ref on input line 22.
-LaTeX Info: Redefining \pageref on input line 22.
-LaTeX Info: Redefining \nameref on input line 22.
+LaTeX Info: Redefining \ref on input line 28.
+LaTeX Info: Redefining \pageref on input line 28.
+LaTeX Info: Redefining \nameref on input line 28.
 
 (./Report.out) (./Report.out)
-\@outlinefile=\write4
-\openout4 = `Report.out'.
+\@outlinefile=\write5
+\openout5 = `Report.out'.
 
 
 (c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count155
+\scratchcounter=\count345
 \scratchdimen=\dimen181
 \scratchbox=\box43
-\nofMPsegments=\count156
-\nofMParguments=\count157
-\everyMPshowfont=\toks41
-\MPscratchCnt=\count158
+\nofMPsegments=\count346
+\nofMParguments=\count347
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count348
 \MPscratchDim=\dimen182
-\MPnumerator=\count159
-\makeMPintoPDFobject=\count160
-\everyMPtoPDFconversion=\toks42
+\MPnumerator=\count349
+\makeMPintoPDFobject=\count350
+\everyMPtoPDFconversion=\toks39
 ) (c:/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -736,7 +930,18 @@ ABD: EveryShipout initializing macros
 Package todonotes Warning: The length marginparwidth is less than 2cm and will 
 most likely cause issues with the appearance of inserted todonotes. The issue c
 an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
-loading the todonotes package. on input line 22.
+loading the todonotes package. on input line 28.
+
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout4 = `Report.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'Report.bbl' found.
+(./Report.bbl)
+Package biblatex Info: Reference section=0 on input line 28.
+Package biblatex Info: Reference segment=0 on input line 28.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -773,7 +978,7 @@ loading the todonotes package. on input line 22.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 (./title/title.tex
-<title/logo.png, id=86, 392.04pt x 108.9pt>
+<title/logo.png, id=103, 392.04pt x 108.9pt>
 File: title/logo.png Graphic file (type png)
 <use title/logo.png>
 Package pdftex.def Info: title/logo.png  used on input line 9.
@@ -790,212 +995,203 @@ g (PNG copy)>])pdfTeX warning (ext4): destination with the same identifier (nam
 e{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.30 \end{abstract}
+l.36 \end{abstract}
                     [1] (./Report.toc)
-\tf@toc=\write5
-\openout5 = `Report.toc'.
+\tf@toc=\write6
+\openout6 = `Report.toc'.
 
- [2
-
-] (./Report.lof)
-\tf@lof=\write6
-\openout6 = `Report.lof'.
-
- [3
-
-] (./Report.lot)
-\tf@lot=\write7
-\openout7 = `Report.lot'.
-
-
-(./introduction/introduction.tex [4
+ (./implementation/implementation.tex
+[2
 
 ]
 Chapter 1.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 4.
-(c:/texlive/2018/texmf-dist/tex/latex/base/t1cmtt.fd
+<implementation/fig/code0.png, id=143, 492.33937pt x 127.97812pt>
+File: implementation/fig/code0.png Graphic file (type png)
+<use implementation/fig/code0.png>
+Package pdftex.def Info: implementation/fig/code0.png  used on input line 13.
+(pdftex.def)             Requested size: 256.07741pt x 66.56657pt.
+<implementation/fig/code1.png, id=145, 647.41875pt x 54.2025pt>
+File: implementation/fig/code1.png Graphic file (type png)
+<use implementation/fig/code1.png>
+Package pdftex.def Info: implementation/fig/code1.png  used on input line 26.
+(pdftex.def)             Requested size: 256.07741pt x 21.4391pt.
+<implementation/fig/code2.png, id=148, 484.05844pt x 264.99pt>
+File: implementation/fig/code2.png Graphic file (type png)
+<use implementation/fig/code2.png>
+Package pdftex.def Info: implementation/fig/code2.png  used on input line 46.
+(pdftex.def)             Requested size: 256.07741pt x 140.18929pt.
+[3
+
+ <./implementation/fig/code0.PNG> <./implementation/fig/code1.PNG>]
+<implementation/fig/code3.png, id=169, 540.51938pt x 143.03438pt>
+File: implementation/fig/code3.png Graphic file (type png)
+<use implementation/fig/code3.png>
+Package pdftex.def Info: implementation/fig/code3.png  used on input line 59.
+(pdftex.def)             Requested size: 256.07741pt x 67.76524pt.
+<implementation/fig/code4.png, id=171, 534.49687pt x 167.87718pt>
+File: implementation/fig/code4.png Graphic file (type png)
+<use implementation/fig/code4.png>
+Package pdftex.def Info: implementation/fig/code4.png  used on input line 72.
+(pdftex.def)             Requested size: 256.07741pt x 80.43155pt.
+<implementation/fig/code5.png, id=172, 518.6878pt x 164.86594pt>
+File: implementation/fig/code5.png Graphic file (type png)
+<use implementation/fig/code5.png>
+Package pdftex.def Info: implementation/fig/code5.png  used on input line 84.
+(pdftex.def)             Requested size: 256.07741pt x 81.39882pt.
+ [4 <./implementation/fig/code2.PNG> <./implementation/fig/code3.PNG> <./implem
+entation/fig/code4.PNG>]
+<implementation/fig/code6.png, id=186, 589.4522pt x 297.36093pt>
+File: implementation/fig/code6.png Graphic file (type png)
+<use implementation/fig/code6.png>
+Package pdftex.def Info: implementation/fig/code6.png  used on input line 97.
+(pdftex.def)             Requested size: 256.07741pt x 129.18307pt.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 104.
+
+ (c:/texlive/2018/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-
-LaTeX Warning: Citation `greenwade93' on page 5 undefined on input line 7.
-
-<introduction/fig/Felix_the_cat.pdf, id=173, 532.38902pt x 558.88799pt>
-File: introduction/fig/Felix_the_cat.pdf Graphic file (type pdf)
-<use introduction/fig/Felix_the_cat.pdf>
-Package pdftex.def Info: introduction/fig/Felix_the_cat.pdf  used on input line
- 31.
-(pdftex.def)             Requested size: 128.0387pt x 134.40874pt.
-[5
-
-]
-<introduction/fig/figure1.jpg, id=202, 563.14285pt x 480.54857pt>
-File: introduction/fig/figure1.jpg Graphic file (type jpg)
-<use introduction/fig/figure1.jpg>
-Package pdftex.def Info: introduction/fig/figure1.jpg  used on input line 81.
-(pdftex.def)             Requested size: 213.39568pt x 182.09706pt.
-<introduction/fig/figure2.pdf, id=203, 425.59pt x 187.70125pt>
-File: introduction/fig/figure2.pdf Graphic file (type pdf)
-<use introduction/fig/figure2.pdf>
-Package pdftex.def Info: introduction/fig/figure2.pdf  used on input line 84.
-(pdftex.def)             Requested size: 256.07741pt x 112.94525pt.
- [6 <./introduction/fig/Felix_the_cat.pdf>] [7 <./introduction/fig/figure1.jpg>
- <./introduction/fig/figure2.pdf>]
-File: introduction/fig/Felix_the_cat.pdf Graphic file (type pdf)
-<use introduction/fig/Felix_the_cat.pdf>
-Package pdftex.def Info: introduction/fig/Felix_the_cat.pdf  used on input line
- 92.
-(pdftex.def)             Requested size: 351.39154pt x 368.88426pt.
- [8]) (./implementation/implementation.tex [9
-
-
-]
+<implementation/fig/code7.png, id=188, 663.22781pt x 235.63031pt>
+File: implementation/fig/code7.png Graphic file (type png)
+<use implementation/fig/code7.png>
+Package pdftex.def Info: implementation/fig/code7.png  used on input line 108.
+(pdftex.def)             Requested size: 256.07741pt x 90.9786pt.
+)
+(./results/results.tex [5 <./implementation/fig/code5.PNG> <./implementation/fi
+g/code6.PNG> <./implementation/fig/code7.PNG>]
 Chapter 2.
-) (./evaluation/evaluation.tex [10
-
-]
-Chapter 3.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 8.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 5.
 (c:/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 8.
- [11
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
+ [6
 
 ]
-<evaluation/fig/Accuracy0.png, id=261, 1427.3325pt x 395.22656pt>
-File: evaluation/fig/Accuracy0.png Graphic file (type png)
-<use evaluation/fig/Accuracy0.png>
-Package pdftex.def Info: evaluation/fig/Accuracy0.png  used on input line 26.
+<results/fig/Accuracy0.png, id=207, 1427.3325pt x 395.22656pt>
+File: results/fig/Accuracy0.png Graphic file (type png)
+<use results/fig/Accuracy0.png>
+Package pdftex.def Info: results/fig/Accuracy0.png  used on input line 36.
 (pdftex.def)             Requested size: 298.75264pt x 82.72261pt.
-<evaluation/fig/Loss0.png, id=263, 1427.3325pt x 395.97937pt>
-File: evaluation/fig/Loss0.png Graphic file (type png)
-<use evaluation/fig/Loss0.png>
-Package pdftex.def Info: evaluation/fig/Loss0.png  used on input line 33.
+<results/fig/Loss0.png, id=208, 1427.3325pt x 395.97937pt>
+File: results/fig/Loss0.png Graphic file (type png)
+<use results/fig/Loss0.png>
+Package pdftex.def Info: results/fig/Loss0.png  used on input line 43.
 (pdftex.def)             Requested size: 298.75264pt x 82.88017pt.
-<evaluation/fig/confusion0.png, id=264, 642.4pt x 642.4pt>
-File: evaluation/fig/confusion0.png Graphic file (type png)
-<use evaluation/fig/confusion0.png>
-Package pdftex.def Info: evaluation/fig/confusion0.png  used on input line 40.
+<results/fig/confusion0.png, id=209, 642.4pt x 642.4pt>
+File: results/fig/confusion0.png Graphic file (type png)
+<use results/fig/confusion0.png>
+Package pdftex.def Info: results/fig/confusion0.png  used on input line 50.
 (pdftex.def)             Requested size: 256.07741pt x 256.08305pt.
- [12 <./evaluation/fig/Accuracy0.PNG> <./evaluation/fig/Loss0.PNG> <./evaluatio
-n/fig/confusion0.png>]
-<evaluation/fig/Accuracy1.png, id=273, 1425.07407pt x 392.96812pt>
-File: evaluation/fig/Accuracy1.png Graphic file (type png)
-<use evaluation/fig/Accuracy1.png>
-Package pdftex.def Info: evaluation/fig/Accuracy1.png  used on input line 50.
+ [7 <./results/fig/Accuracy0.PNG> <./results/fig/Loss0.PNG> <./results/fig/conf
+usion0.png>]
+<results/fig/Accuracy1.png, id=220, 1425.07407pt x 392.96812pt>
+File: results/fig/Accuracy1.png Graphic file (type png)
+<use results/fig/Accuracy1.png>
+Package pdftex.def Info: results/fig/Accuracy1.png  used on input line 60.
 (pdftex.def)             Requested size: 298.75264pt x 82.38182pt.
-<evaluation/fig/Loss1.png, id=274, 1425.07407pt x 402.75468pt>
-File: evaluation/fig/Loss1.png Graphic file (type png)
-<use evaluation/fig/Loss1.png>
-Package pdftex.def Info: evaluation/fig/Loss1.png  used on input line 57.
+<results/fig/Loss1.png, id=221, 1425.07407pt x 402.75468pt>
+File: results/fig/Loss1.png Graphic file (type png)
+<use results/fig/Loss1.png>
+Package pdftex.def Info: results/fig/Loss1.png  used on input line 67.
 (pdftex.def)             Requested size: 298.75264pt x 84.43347pt.
-<evaluation/fig/confusion1.png, id=275, 642.4pt x 642.4pt>
-File: evaluation/fig/confusion1.png Graphic file (type png)
-<use evaluation/fig/confusion1.png>
-Package pdftex.def Info: evaluation/fig/confusion1.png  used on input line 64.
+<results/fig/confusion1.png, id=222, 642.4pt x 642.4pt>
+File: results/fig/confusion1.png Graphic file (type png)
+<use results/fig/confusion1.png>
+Package pdftex.def Info: results/fig/confusion1.png  used on input line 74.
 (pdftex.def)             Requested size: 256.07741pt x 256.08305pt.
- [13 <./evaluation/fig/Accuracy1.PNG> <./evaluation/fig/Loss1.PNG> <./evaluatio
-n/fig/confusion1.png>]
-<evaluation/fig/Accuracy2.png, id=283, 1426.57968pt x 395.22656pt>
-File: evaluation/fig/Accuracy2.png Graphic file (type png)
-<use evaluation/fig/Accuracy2.png>
-Package pdftex.def Info: evaluation/fig/Accuracy2.png  used on input line 74.
+ [8 <./results/fig/Accuracy1.PNG> <./results/fig/Loss1.PNG> <./results/fig/conf
+usion1.png>]
+<results/fig/Accuracy2.png, id=233, 1426.57968pt x 395.22656pt>
+File: results/fig/Accuracy2.png Graphic file (type png)
+<use results/fig/Accuracy2.png>
+Package pdftex.def Info: results/fig/Accuracy2.png  used on input line 84.
 (pdftex.def)             Requested size: 298.75264pt x 82.76482pt.
-<evaluation/fig/Loss2.png, id=284, 1427.3325pt x 398.99063pt>
-File: evaluation/fig/Loss2.png Graphic file (type png)
-<use evaluation/fig/Loss2.png>
-Package pdftex.def Info: evaluation/fig/Loss2.png  used on input line 81.
+<results/fig/Loss2.png, id=234, 1427.3325pt x 398.99063pt>
+File: results/fig/Loss2.png Graphic file (type png)
+<use results/fig/Loss2.png>
+Package pdftex.def Info: results/fig/Loss2.png  used on input line 91.
 (pdftex.def)             Requested size: 298.75264pt x 83.51045pt.
-<evaluation/fig/confusion2.png, id=285, 642.4pt x 642.4pt>
-File: evaluation/fig/confusion2.png Graphic file (type png)
-<use evaluation/fig/confusion2.png>
-Package pdftex.def Info: evaluation/fig/confusion2.png  used on input line 88.
+<results/fig/confusion2.png, id=235, 642.4pt x 642.4pt>
+File: results/fig/confusion2.png Graphic file (type png)
+<use results/fig/confusion2.png>
+Package pdftex.def Info: results/fig/confusion2.png  used on input line 98.
 (pdftex.def)             Requested size: 256.07741pt x 256.08305pt.
- [14 <./evaluation/fig/Accuracy2.PNG> <./evaluation/fig/Loss2.PNG> <./evaluatio
-n/fig/confusion2.png>]
-<evaluation/fig/Accuracy3.png, id=293, 1425.82687pt x 394.47375pt>
-File: evaluation/fig/Accuracy3.png Graphic file (type png)
-<use evaluation/fig/Accuracy3.png>
-Package pdftex.def Info: evaluation/fig/Accuracy3.png  used on input line 98.
+ [9 <./results/fig/Accuracy2.PNG> <./results/fig/Loss2.PNG> <./results/fig/conf
+usion2.png>]
+<results/fig/Accuracy3.png, id=246, 1425.82687pt x 394.47375pt>
+File: results/fig/Accuracy3.png Graphic file (type png)
+<use results/fig/Accuracy3.png>
+Package pdftex.def Info: results/fig/Accuracy3.png  used on input line 108.
 (pdftex.def)             Requested size: 298.75264pt x 82.6493pt.
-<evaluation/fig/Loss3.png, id=294, 1424.32124pt x 396.7322pt>
-File: evaluation/fig/Loss3.png Graphic file (type png)
-<use evaluation/fig/Loss3.png>
-Package pdftex.def Info: evaluation/fig/Loss3.png  used on input line 105.
+<results/fig/Loss3.png, id=247, 1424.32124pt x 396.7322pt>
+File: results/fig/Loss3.png Graphic file (type png)
+<use results/fig/Loss3.png>
+Package pdftex.def Info: results/fig/Loss3.png  used on input line 115.
 (pdftex.def)             Requested size: 298.75264pt x 83.2133pt.
-<evaluation/fig/confusion3.png, id=295, 642.4pt x 642.4pt>
-File: evaluation/fig/confusion3.png Graphic file (type png)
-<use evaluation/fig/confusion3.png>
-Package pdftex.def Info: evaluation/fig/confusion3.png  used on input line 112.
-
+<results/fig/confusion3.png, id=248, 642.4pt x 642.4pt>
+File: results/fig/confusion3.png Graphic file (type png)
+<use results/fig/confusion3.png>
+Package pdftex.def Info: results/fig/confusion3.png  used on input line 122.
 (pdftex.def)             Requested size: 256.07741pt x 256.08305pt.
-) (./conclusion/conclusion.tex
-[15 <./evaluation/fig/Accuracy3.PNG> <./evaluation/fig/Loss3.PNG> <./evaluation
-/fig/confusion3.png>]
-Chapter 4.
-) (./Report.bbl) [16
+) (./conclusion/conclusion.tex [10 <./results/fig/Accuracy3.PNG> <./results/fig
+/Loss3.PNG> <./results/fig/confusion3.png>]
+Chapter 3.
+) [11
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 45.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 45.
+Overfull \hbox (38.81999pt too wide) in paragraph at lines 48--48
+[]\T1/cmr/m/n/10 Ian Good-fel-low, Yoshua Ben-gio, and Aaron Courville. \T1/cmr
+/m/it/10 Deep Learn-ing\T1/cmr/m/n/10 . []$\T1/cmtt/m/n/10 http : / / www . dee
+plearningbook .
+ []
+
+[12
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
  (./Report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 45.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 45.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 50.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 50.
 Package rerunfilecheck Info: File `Report.out' has not changed.
-(rerunfilecheck)             Checksum: F4D57C67D1979E00FB083B7AD426D09B;876.
+(rerunfilecheck)             Checksum: FBD7133E56EF44180A463275E78BB356;1129.
+Package logreq Info: Writing requests to 'Report.run.xml'.
+\openout1 = `Report.run.xml'.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 45.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
  ) 
 Here is how much of TeX's memory you used:
- 19504 strings out of 492616
- 352343 string characters out of 6132767
- 458631 words of memory out of 5000000
- 22938 multiletter control sequences out of 15000+600000
- 21540 words of font info for 48 fonts, out of 8000000 for 9000
+ 25579 strings out of 492616
+ 470316 string characters out of 6132767
+ 908650 words of memory out of 5000000
+ 29018 multiletter control sequences out of 15000+600000
+ 15519 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,9n,80p,640b,1110s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{subfigure.3.13.2} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subfigure.3.13.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.3.13} has been referenced but does not exist
-, replaced by a fixed one
-
-{c:/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texliv
-e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2018/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2018/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
-c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive
-/2018/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2018/texm
-f-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2018/texmf-dist/fon
-ts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2018/texmf-dist/fonts/type1/p
-ublic/cm-super/sfbx2074.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-s
-uper/sfbx2488.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfcc1
-200.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb><c
-:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><c:/texlive/
-2018/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb><c:/texlive/2018/texmf
--dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2018/texmf-dist/font
-s/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2018/texmf-dist/fonts/type1/pu
-blic/cm-super/sfrm1200.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-su
-per/sfti1000.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfti12
-00.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb><c:
-/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on Report.pdf (17 pages, 1136623 bytes).
+ 62i,6n,80p,911b,1651s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texl
+ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2018/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2018/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.p
+fb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/tex
+live/2018/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2018/
+texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2018/texmf-dist
+/fonts/type1/public/cm-super/sfbx2074.pfb><c:/texlive/2018/texmf-dist/fonts/typ
+e1/public/cm-super/sfbx2488.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/
+cm-super/sfcc1000.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/s
+fcc1200.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pf
+b><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texl
+ive/2018/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2018/t
+exmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><c:/texlive/2018/texmf-dist/
+fonts/type1/public/cm-super/sfti1200.pfb><c:/texlive/2018/texmf-dist/fonts/type
+1/public/cm-super/sftt1000.pfb>
+Output written on Report.pdf (13 pages, 1165551 bytes).
 PDF statistics:
- 404 PDF objects out of 1000 (max. 8388607)
- 311 compressed objects within 4 object streams
- 73 named destinations out of 1000 (max. 500000)
- 301 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 354 PDF objects out of 1000 (max. 8388607)
+ 259 compressed objects within 3 object streams
+ 57 named destinations out of 1000 (max. 500000)
+ 358 words of extra memory for PDF output out of 10000 (max. 10000000)
 
