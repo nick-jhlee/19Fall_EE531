@@ -5,24 +5,16 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces One iteration of 1-dim WL test}}{6}{figure.2.1}% 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces An instance where a colorblind clustering produces an unfair result}}{6}{figure.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces One iteration of WL subtree kernel}}{7}{figure.2.2}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Illustration of the computation of the WL subtree kernel (with respect to one iteration) for two graphs}}{7}{figure.2.3}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces An overview of the theoretical framework}}{8}{figure.2.4}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces A decomposition of a fair clustering into fairlets with two red points and one blue point}}{6}{figure.2.2}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Ranking by expressive power for sum, mean, and max aggregators over a multiset}}{12}{figure.3.1}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Examples of graph structures that mean and max aggregators fail to distinguish}}{12}{figure.3.2}% 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces An instance where $\phi (X, \mathcal {Y}) = 2 \phi _t^*$}}{9}{figure.3.1}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Training set performance}}{14}{figure.4.1}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Test set performance}}{14}{figure.4.2}% 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Empirical performance of the classical and fair clustering median and center algorithms on the three datasets. The cost of each solution is on left axis, and its balance on the right axis.}}{13}{figure.4.1}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }

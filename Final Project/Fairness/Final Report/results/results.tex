@@ -1,185 +1,218 @@
 \chapter{Main results}
 
-\section{Representational capacity of GNNs}
+\section{Fairlet decomposition and fair clustering}
 
-Recall that a maximally powerful GNN has been characterized by an injective aggregation scheme. Thus two (non)isomorphic graphs are mapped to the (different)same representation(s) by a maximally powewful GNN, ideally.
+Denote:
+\begin{itemize}
+	\item $\mathcal{Y} = \{ Y_1, \dots, Y_m \}$ is a fairlet decomposition of $X$
+	\item $y_j \in Y_j$ is the {\it center} of $Y_j$. (Its choice is arbitrary)
+	\item $\beta : X \rightarrow [m]$ is the mapping from a point to the index of the fairlet to which it is mapped.
+\end{itemize}
 
-But it turns out that the representational capacity of GNNs is characterized by the WL test, instead of being characterized by \textsc{Graph Isomorphism}.
+\noindent Then,
+\begin{definition}
+For a fairlet decomposition $\mathcal{Y}$, define its costs:
+
+\begin{itemize}
+	\item $k \text{-median cost} = \sum_{x \in X} d \left(x, y_{\beta(x)}\right) =: \psi(X, \mathcal{Y})$
+	\item $k \text{-center cost} = \max_{x \in X} d \left(x, y_{\beta(x)}\right) =: \phi(X, \mathcal{Y})$
+\end{itemize}
+
+\noindent Also, we say that a $(b, r)$-fairlet decomposition is {\it optimal} if it has minimum cost among all possible $(b, r)$-fairlet decompositions.
+\end{definition}
+
+We shall now see how to reduce this fair clustering to a colorblind clustering.
+Recall that a $(t, k)$-fair clustering of $X$ requires that $t \leq \balance(X)$ 
+To achieve this, we consider the {\bf vanilla $k$-clustering of the centers of each fairlet} i.e. $k$-clustering of $\{y_1, \dots, y_m\}$.
+Then we obtain a set of centers $\{c_1, \dots, c_k\}$ and an assignment function $\alpha_Y : Y \rightarrow [k]$.
+
+Define 
+$$\alpha(x) = \alpha_Y(y_{\beta(x)})$$
+as the overall assignment function and denote $\mathcal{C}_\alpha$ as the clustering induced by $\alpha$.
+Observe that $\balance{C_\alpha} = t$.
+As for the cost, refer to the next lemma, which states that the cost is bounded by the sum of costs of vanilla $k$-clustering and the fairlet decomposition:
 
 \begin{lemma}
-Let $G_1$ and $G_2$ be any two non-isomorphic graphs.
+Denote $\tilde{Y}$ as a multiset where each $y_i$ appears $|Y_i|$ number of times. Then,
 
-\noindent If a graph neural network $\mathcal{A} : \mathcal{G} \rightarrow \mathbb{R}^d$ maps $G_1$ and $G_2$ to different embeddings, the Weisfeiler-Lehman graph isomorphism test also decides $G_1$ and $G_2$ are not isomorphic.
+$$\psi(X, \mathcal{C}_\alpha) \leq \psi(X, \mathcal{Y}) + \psi(\tilde{Y}, \mathcal{C}_\alpha)$$
+
+$$\phi(X, \mathcal{C}_\alpha) \leq \phi(X, \mathcal{Y}) + \phi(\tilde{Y}, \mathcal{C}_\alpha)$$
+
 \end{lemma}
 
-The significance of above lemma is that {\bf any aggregation-based GNN is {\it at most} as powerful as the WL test} in distinguishing different graphs.
+This lemma, along with previous reasoning, shows that the fair clustering problem can be reduced to
+\begin{itemize}
+	\item Find a good fairlet decomposition ($\alpha$-approximation)
+	\item Solve the vanilla clustering problem on the centers of the fairlets ($\beta$-approximation)
+\end{itemize}
+, which is a $(\alpha + \beta)$-approximation in total!
 
-Now we ask ourselves the question of whether that "bound" is tight. In other words, we want to know if there exists a GNN that is, in principle, as powerful as the WL test in distinguishing different graphs?
 
-And it turns out that is true:
+
+\section{Algorithms}
+
+\subsection{(1, k)-fair center problem}
+
+Let us first consider the case when $\balance(X) = 1$. To find a perfectly balanced clustering, we shall be utilizing a good $(1, 1)$-fairlet decomposition!
+
+Below lemma tells us that finding an optimal $(1, 1)$-fairlet decomposition is not too heavy on computation:
+
+\begin{lemma}
+An optimal $(1, 1)$-fairlet decomposition for $k$-center can be found in polynomial time.
+\end{lemma}
+
+%\begin{proof}
+%This can be proved by relating the above problem to a {\it graph covering problem}.
+%Denote $B(X) = \{b_i\}_i$ and $R(X) = \{r_j\}_j$ and create a weighted, {\it complete} bipartite graph $G = (B, R, E)$ with the weight function $w(b_i, r_j) = d(b_i, r_j)$.
+%
+%Then every $(1, 1)$-fairlet decomposition corresponds to some {\bf perfect matching} in $G$ where each edge represents a fairlet, $Y_i$.
+%Letting $\mathcal{Y} = \{Y_i\}_i$, the $k$-center cost $\phi(X, \mathcal{Y})$ is exactly the cost of the maximum weight edge in the matching.
+%This can be done in $O(n^2)$ time (cf. "threshold graph", binary searching).
+%For each $Y_i$, arbitrarily set one of the two nodes of the corresponding edge as the center, $y_i$, and we are done.
+%\end{proof}
+
+Recall that any fair solution induces a set of minimal fairlets. Thus, the cost of the fairlet decomposition found is at most {\it twice} the cost of an optimal solution to the clustering.
+	
+\begin{lemma}
+Let $\mathcal{Y}$ be the partition found previously, and let $\phi_t^*$ be the cost of the optimal $(t, k)$-fair center clustering. Then,
+$$\phi(X, \mathcal{Y}) \leq 2 \phi_t^*$$.
+\end{lemma}
+
+\begin{remark}
+In the paper (Lemma 8), there is no $2$ in the LHS of the inequality.  \cite{Rosner2019} has observed that the fairlet decomposition cost should be bounded by the maximal diameter of a fair clustering, not the radius.
+He then gave an example where the above equality holds, thus disproving the original statement:
+\begin{figure}[hbt!]
+	\centering
+	\includegraphics[height=3cm]{results/fig/correction.png}
+	\caption{An instance where $\phi(X, \mathcal{Y}) = 2 \phi_t^*$}
+\end{figure}
+\end{remark}
+
+	
+As a final touch, let us utilize a result by Gonzalez for the vanilla $k$-center problem\cite{Gonzalez1985}:
+
+\begin{theorem}[Gonzalez, 1985]
+There is an algorithm which, given a $k$-center instance $\mathcal{I}$, produces a $2$-approximation solution to $\mathcal{I}$ in running time $O(kn)$
+\end{theorem}
+
+\noindent Combining above discussions, we have the following:
 
 \begin{theorem}
-Let $\mathcal{A} : \mathcal{G} \rightarrow \mathbb{R}^d$ be a GNN.
-
-\noindent With a sufficient number of GNN layers, $\mathcal{A}$ maps any $G_1$ and $G_2$ that the Weisfeiler-Lehman test of isomorphism decides as non-isomorphic, to different embeddings if the following conditions hold:
-
-\begin{itemize}
-\item $\mathcal{A}$ aggregates and updates node features iteratively with
-$$h_v^{(k)} = \phi \left( h_v^{(k - 1)}, f \left( \left\{ h_u^{(k - 1)} : u \in \mathcal{N}_G(v) \right\} \right) \right)$$
-where the functions $f$, which operates on multisets, and $\phi$ are {\it injective}.
-\item $\mathcal{A}$'s graph-level readout, which operates on the multiset of node features $\left\{ h_v^{(k)} \right\}$, is {\it injective}.
-\end{itemize}
+The algorithm that first finds fairlets and then clusters them is a $4$-approximation for the $(1, k)$-fair center problem.
 \end{theorem}
 
-Before moving on, an important benefit of GNN should be discussed.
 
-Recall that the node feature vectors in the WL test are essentially one-hot encodings, and thus cannot capture similarity between subtrees. It can literally just decide whether two graphs are isomorphic, or not.
+\subsection{(1/t', k)-fair center problem}
 
-GNN (satisfying the criteria in Theorem 3), on the other hand, generalizes the WL test by {\bf learning to embed the subtrees to low-dimensional space}.
-In other words, GNNs can not only discriminate different structures, but can also {\bf learn to map similar graph structures to similar embeddings and {\it capture dependencies between graph structures}}.
-(It was shown in \cite{Yanardag2015} that this is especially helpful for generalization when the co-occurence of subtrees is sparse across different graphs, or there are noisy edges and node features.)
+Now let us consider the case when $\balance(X) = t < 1$. For simplicity, assume that $t = 1/t'$ for some integer $t' > 1$ (as done in the paper)
+As a generalization of previous argument, we shall transform this problem into a {\bf minimum cost flow problem (MCFP)}.
+
+\begin{definition}
+A {\it flow network} is a directed graph $G = (V, E)$ with a source vertex $s \in V$ and a sink vertex $t \in V$,
+where each edge $(u, v) \in E$ has capacity $c(u, v) > 0$, flow $f(u, v) \geq 0$ and cost $a(u, v) \in \mathbb{R}$
+
+\end{definition}
+
+Now let us define what a MCFP is:
+
+\newpage
+\begin{problem}[Minimum Cost Flow Problem (MCFP)]
+{\bf Input}: A flow network $(G = (V, E), s, t, c, a)$ (without the flow), $d$
+
+{\bf Constraints}:
+\begin{itemize}
+	\item Capacity constraints: $f(u, v) \leq c(u, v)$
+	\item Skew symmetry: $f(u, v) = -f(v, u)$
+	\item Flow conservation: $\forall u \not= s, t \ \sum_{w \in V} f(u, w) = 0$
+	\item Required flow from $s$ to $t$: $\sum_{w \in V} f(s, w) = \sum_{w \in V} f(w, t) = d$
+\end{itemize}
+
+{\bf Output}: Flow $f(u, v)$ such that $\sum_{(u, v) \in E} a(u, v) f(u, v)$ is minimized
+
+\end{problem}
 
 
-\section{Graph Isomorphism Network (GIN)}
+Let us construct an instance of MCFP corresponding to a clustering instance, with a parameter $\tau > 0$ that is to be determined later. 
 
-Since we have proved that there really does exist a GNN architecture with the same expressive power as the WL test, let us actually build one!
-This simple architecture is called the Graph Isomorphism Network, or GIN.
+First, let us construct a directed graph $H_\tau = (V, E)$ such that:
 
-The basic idea is to use deep multisets\cite{Zaheer2017} {\it i.e.} parametrizing universal multiset functions with neural networks.
+\begin{itemize}	
+	\item Vertex set:
+$$V = \{\beta, \rho\} \cup B(X) \cup R(X) \cup \left\{ b_i^j | b_i \in B(X) \right\}_{j \in [t']} \cup \left\{ r_i^j | r_i \in R(X) \right\}_{j \in [t']}$$
 
+	\item Edge set:
+	\begin{itemize}
+		\item $(\beta, \rho)$ with cost 0 and capacity $\min \left( |B(X)|, |R(X)| \right)$
+		\item $(\beta, b_i)$ and $(r_i, \rho)$ for each $b_i \in B(X), r_i \in R(X)$, with cost $0$ and capacity $t' - 1$
+		\item $(b_i, b_i^j)$ and $(r_i, r_i^j)$ for each $b_i \in B(X), r_i \in R(X), j \in [t']$, with cost $0$ and capacity $1$
+		\item $(b_i^k, r_j^l)$ for each $b_i \in B(X), r_i \in R(X), 1 \leq k, l \leq t'$, with cost $1$ if $d(b_i, r_j) \leq \tau$ and $\infty$ otherwise.
+	\end{itemize}
+	
+\end{itemize}
+
+Define the supply and demand at every node as follows::
+\begin{itemize}
+	\item Every node in $B(X)$ has a supply of $1$
+	\item Every node in $R(X)$ has a demand of $1$
+	\item $\beta$ has a supply of $|R(X)|$
+	\item $\rho$ has a demand of $|B(X)|$
+	\item Every other node has zero supply and demand
+\end{itemize}
+
+\begin{figure}[hbt]
+  \includegraphics[height=4cm]{results/fig/fig3.png}
+\end{figure}
+
+
+To relate this to our original fair clustering problem, we must be able to build a low cost $(1, t')$-fairlet decomposition, starting from a solution to the described MCF instance.
 
 \begin{lemma}
-Assume $\mathcal{X}$ is countable.
-There exists a function $f : \mathcal{X} \rightarrow \mathbb{R}^n$ so that $h(X) = \sum_{x \in X} f(x)$ is unique for each multiset $X \subset \mathcal{X}$ of bounded size.
-
-\noindent Moreover, any multiset function $g$ can be decomposed as $g(X) = \phi \left( \sum_{x \in X} f(x) \right)$ for some function $\phi$.
+By reducing the $(1, t')$-fairlet decomposition problem to an MCFP, it is possible to compute a $2$-approximation for the optimal $(1, t')$-fairlet decomposition for the $(1/t', k)$-fair center problem.
 \end{lemma}
 
-Certain popular injective set functions, such as the mean aggregator, are {\it not} injective {\bf multiset} functions.
-Above lemma tells us that sum aggregators can represent injective, in fact, universal functions over multisets, and thus we can conceive aggregation schemes that can {\it represent universal functions over a node and the multiset of its neighbors}, satisfying injectiveness:
+Combining above with the result by Gonzalez gives:
 
+\begin{theorem}
+For any integer $t' \in \mathbb{N}$, the algorithm that first finds fairlets and then clusters them is a $4$-approximation for the $(1/t', k)$-fair center problem.
 
-\begin{corollary}
-Assume $\mathcal{X}$ is countable.
-There exists a function $f : \mathcal{X} \rightarrow \mathbb{R}^n$ so that for infinitely many choices of $\epsilon$, including all irrational numbers, $h(c, X) = (1 + \epsilon) f(c) + \sum_{x \in X} f(x)$ is unique for each pair $(c, X)$, where $c \in \mathcal{X}$ and $X \subset \mathcal{X}$ is a multiset of bounded size.
-
-\noindent Moreover, any function $g$ over such pairs can be decomposed as $g(c, X) = \varphi \left( (1 + \epsilon) f(c) + \sum_{x \in X} f(x) \right)$ for some function $\varphi$.
-\end{corollary}
-
-Recall the Universal Approximation Theorem\cite{Hornik1989}\cite{Hornik1991}:
-
-\begin{theorem}[Universal Approximation Theorem (Hornik, 1991)]
-Define
-$$\mathscr{N}_k^{(n)} (\psi) = \left\{ h : \mathbb{R}^k \rightarrow \mathbb{R} \middle| h(x) = \sum_{j = 1}^n \beta_j \psi(a_j' x - \theta_j) \right\}$$
-as the set of all functions implemented by such a network with $n$ hidden units, where $\psi$ is the common activation function of the hidden units.
-
-\noindent{\it If $\psi$ is continuous, bounded and nonconstant, then $\mathscr{N}_k^{(n)} (\psi)$ is dense in $\mathscr{C}(X)$ for all compact subsets $X$ of $\mathbb{R}^k$.}
 \end{theorem}
 
-This tells us several things:
-\begin{itemize}
-	\item Every continuous function can be approximated arbitrarily closely by a multi-layer perceptron with just one hidden layer.
+
+\subsection{(1/t', k)-fair median problem}
+
+Slight modification of previous argument gives us the (approx.) solution for $(t, k)$-fair median problem (with $t = 1/t'$).
+
+For the perfectly balanced case, the modification changes to looking for a {\bf perfect matching of minimum total cost} on the constructed bichromatic graph.
+To find $(1, t')$-fairlet decomposition for $t' > 1$, create an instance of MCF, {\it with (some of the) weights as the distances}
 	
-	\item The choice of the activation function doesn't matter; it's the multilayer feedforward architecture that gives neural networks the potential of being universal approximators.
-\end{itemize}
+Let us utilize a result by Li \& Svensson for $k$-median problem\cite{Li2013}:
 
-Thus we can use MLPs to model and learn $f$ and $\varphi$.
-In practice, $f^{(k + 1)} \circ \varphi^{(k)}$ is modeled with one MLP.
+\begin{theorem}[Li \& Svensson, 2013]
+There is an algorithm which, given a $k$-median instance $\mathcal{I}$ and $\varepsilon > 0$, produces a $(1 + \sqrt{3} + \varepsilon)$-approximation solution to $\mathcal{I}$ in running time $O \left( n^{O(1 / \varepsilon^2)} \right)$
 
-From above corollary, we may make $\epsilon$ as a learnable parameter, or a fixed scalar. Either way, $\gin$ updates node representations as follows:
-	$$h_v^{(k)} = \mlp^{(k)} \left( \left(1 + \epsilon^{(k)} \right) h_v^{(k - 1)} + \sum_{u \in \mathscr{N}(v)} h_u^{(k - 1)} \right)$$
+\end{theorem}
 
-As we've discussed previously, for graph classification tasks, we need a $\readout$ function.
-We want to consider all structural information, considering that features from earlier iterations may sometimes generalize better. Using the idea from \cite{Xu2018}, 
-	$$h_G = \concat \left( \readout \left( \left\{ h_v^{k} | v \in V(G) \right\} \right) \middle| k = 0, 1, \dots, K \right)$$
-	i.e. information from {\it all} depths/iterations of the model is used.	
+\noindent Above discussions give the following result:
 
+\begin{theorem}
+For any integer $t' \in \mathbb{N}$, the algorithm that first finds fairlets and then clusters them is a $(t' + 1 + \sqrt{3} + \varepsilon)$-approximation for the $(1/t', k)$-fair median problem.
 
-
-\section{Less powerful, but still interesting GNNs}
-
-Here, we consider GNNs that do not satisfy the conditions as described in Theorem 3 ,and GNNs with different choice of $\aggregate$ (Max-pooling, Mean)
-
-Some of the questions that will be answer here are:
-\begin{itemize}
-\item What if 1-layer perceptron is used instead of $\mlp$s?
-\item What if the sum $h(X) = \sum_{x \in X} f(x)$ is replaced by mean/max pooling?
-\end{itemize}
-
-(For just a summary, skip to the last subsection)
-
-\subsection{1-Layer Perceptrons}
+\end{theorem}
 
 
-The function $f$ in Lemma 3.2.1 helps map distinct multisets to unique embeddings. It was shown by the Universal Approximation Theorem\cite{Hornik1991} that $f$ can be parametrized by MLPs.
+\subsection{Hardness}
 
-Many modern GNNs, however, use a {\it 1-layer perceptron} $\sigma \circ W$: a linear mapping followed by a non-linear activation function.
-So the natural question to ask is "Is 1-layer perceptron enough for graph learning?"
+We now have a theoretical framework and an actual algorithm for solving fair clustering problems. But by taking fairness into account, we have introduced some extra complexity to the classical clustering problems.
+As the next theorem shows, ensuring fairness (in clustering) introduces a computational bottleneck! (and a very narrow one, indeed.)
 
-And the answer is, as expected, no.
-
-\begin{lemma}
-There exist finite multisets $X_1 \not= X_2$ so that for any linear mapping $W$, $\sum_{x \in X_1} \relu(Wx) = \sum_{x \in X_2} \relu(Wx)$
-\end{lemma}
-
-Above lemma shows that unlike models using MLPs, 1-layer perceptron (even with the bias term) is not a universal approximator of multiset functions.
-
-
-\subsection{GCN}
-
-Recall that GCN\cite{Kipf2017} takes the form:
-	$$h_v^{(k)} = \relu \left( W \MEAN \left\{ h_u^{(k - 1)} : u \in \mathcal{N}_G(v) \cup \{v\} \right\} \right)$$
-i.e. it utilizes {\it mean aggregator}.
-
-Now consider two multisets: $X_1 = (S, m)$ and $X_2 = (S, k m)$
-It can be easily observed that any mean aggregator maps $X_1$ and $X_2$ to the {\it same} embeddings!
-Generally speaking, {\bf mean aggregator captures the {\it distribution of elements in a multiset}}.
-
-\begin{corollary}
-Assume $\mathcal{X}$ is countable.
-There exists a function $f : \mathcal{X} \rightarrow \mathbb{R}^n$ so that $h(X) = \frac{1}{|X|}\sum_{x \in X} f(x)$, $h(X_1) = h(X_2)$ {\it if only if} multisets $X_1$ and $X_2$ have the same distribution.
-That is, assuming $|X_2| \geq |X_1|$, we have $X_1 = (S, m)$ and $X_2 = (S, k m)$ for some $k \in \mathbb{N}$.
-\end{corollary}
-
-(This is as powerful as the sum aggregator if the node features are diverse and rarely repeat, and thus {\it effective for node classification}.)
-
-
-\subsection{GraphSAGE}
-
-Recall that GraphSAGE\cite{Hamilton2017} takes the form:
-	$$a_v^{(k)} = \MAX \left( \left\{ \relu \left( W h_u^{(k - 1)} \right) : u \in \mathcal{N}_G(v) \right\} \right)$$
-	$$h_v^{(k)} = W \left[ h_v^{(k - 1)}, a_v^{(k)} \right]$$
-i.e. it utilizes max-pooling aggregator.
-	
-Unlike previous aggregators, max-pooling can't capture exact structure nor the distribution!
-What it can capture is the {\bf underlying set of muliset} i.e. $S$ in $X = (S, m)$
-
-\begin{corollary}
-Assume $\mathcal{X}$ is countable.
-There exists a function $f : \mathcal{X} \rightarrow \mathbb{R}^\infty$ so that $h(X) = \max_{x \in X} f(x)$, $h(X_1) = h(X_2)$ {\it if only if} multisets $X_1$ and $X_2$ have the same underlying set.
-\end{corollary}
-
-
-\subsection{Summary}
-
-From above discussions, we can now rank the three aggregators by their representational power:
-
-\begin{figure}[hbt]
-\centering
-  \includegraphics[height=3cm]{results/fig/fig3.png}
-  \caption{Ranking by expressive power for sum, mean, and max aggregators over a multiset}
-\end{figure}
-
-\begin{figure}[hbt]
-\centering
-  \includegraphics[height=3cm]{results/fig/fig4.png}
-  \caption{Examples of graph structures that mean and max aggregators fail to distinguish}
-\end{figure}
+\begin{theorem}
+For each fixed $t' \geq 3$,
 
 \begin{itemize}
-	\item Sum over multiset aggregator (as in GIN) completely captures the exact structure of graph.
-		
-	\item Mean aggregator (as in GCN) captures the statistical and distributional information of the graph.
-	
-	\item Max-pooling aggregator (as in GraphSAGE) captures the representative elements of the graph, or its skeleton
+	\item Finding an optimal $(1, t')$-fairlet decomposition is {\it NP-hard}.
+	\item Finding the minimum cost $(1/t', k)$-fair median clustering is {\it NP-hard}
 \end{itemize}
+
+\end{theorem}
+

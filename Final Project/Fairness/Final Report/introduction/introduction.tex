@@ -1,20 +1,38 @@
 \chapter{Introduction}
 
 \section{Motivation}
-GNN, short for Graph Neural Network, has revolutionized the field of representation learning for graph-structured datas. Scarselli {\it et al.}\cite{Scarselli2009a} developed the (probably) earliest GNN model based on information diffusion mechanism.
-Since then, numerous variants of GNN models have come out, and the reader is referred to a recent survey of GNNs by Wu {\it et al.}\cite{Wu2019}.
 
-Even though recent advances in GNNs have achieved state-of-the-art performance in many tasks such as node classification, link prediction, graph classification...etc., their designing have mostly been based upon empirical intuition, heuristics, and experimental trial-and-error.
-Therefore, there isn't much theoretical understanding of the properties and limitations of GNNs, and formal analysis of GNNs' representational capacity is limited.\cite{Xu2019}
-Precisely, this work presents a theoretical framework for analyzing the representational power of GNNs i.e. how expressive different GNN variants are in learning to represent and distinguish between different graph structures.
+Machine learning is becoming ubiquitous in our life; from self-driving car to drug prediction in chemistry, it is becoming part of our life. It is possible that the algorithms, though they aren't inherently biased, may pick up and amplify biases already present in the training data.
+Thus a recent line of work has emerged on the {\it fairness} of some of these machine learning algorithms.
+
+Many different notions of fairness have been studied. (Refer to \cite{Mehrabi2019}\cite{Zhong2019} for a survey of fairness)
+Here we'll be focused on the notion of {\bf disparate impact}.
+Since {\bf Griggs v. Duke Power Co.}\cite{Griggs1971}, disparate impact has earned its place as one of the fundamental rules for fair employment in the U.S. laws. Most notably, the $80\%$-rule\cite{Biddle2006} is the direct result of this.
+According to \cite{uniform}, disparate impact is {\it substantially different rate of selection in hiring, promotion, or other employment decision which works to the disadvantage of members of a race, sex, or ethnic group}.
+
+This work answers the question of how to formalize this notion of disparate impact in the context of clustering problem, and how to actually solve it in that framework.
 
 
 \section{Previous / Related Works}
 
-There hasn't been much work regarding this topic of theoretical interest.
-In his other work, Scarselli et al.\cite{Scarselli2009b} showed that his GNN model\cite{Scarselli2009a} can approximate measurable functions in probability. (Theorem 2-4 in his paper)
+Currently, there are two "big" tracks in fairness research:
+\begin{itemize}
+	\item Codifying the meaning of fairness in algorithms
+	\item Modifying algorithms to make it achieve fair outcomes under a specific notion of fairness
+\end{itemize}
 
-Lei et al.\cite{Lei2017} showed that their architecture lies in the RKHS(reproducing kernel Hilbert space) of graph kernels, but do not study explicitly which graph it can distinguish.
+In the case of disparate impact, Feldman {\it et al.}\cite{Feldman2015} did some work in the first track. This work, on the other hand, is closer to the second track, and is one of the first in the unsupervised learning tasks.
+Unlike other works, {\it strong guarantees} on the quality of any fair clustering solution.
 
 
-These works focus on a specific architecture and {\bf do not easily generalize to other architectures}.
+The general framework of this work follows that of Zemel {\it et al.}\cite{Zemel2013}. Instead of trying to modify an existing algorithm to be fair, our goal here is try to {\bf learn a set of intermediate representations to satisfy two competing goals:}
+\begin{itemize}
+	\item The intermediate representation should encode the data as well as possible.
+	\item The encoded representation is sanitized in the sense that it should be {\bf blind to whether or not the individual is from the protected group}.
+\end{itemize}
+    
+Under this framework, any classification algorithm can be transformed into a fair classifier, by simply {\it applying the classifer to the sanitized representation of the data}.
+
+
+This work is also closely related to that of Zafar {\it et al.}\cite{Zafar2017}.  Part of their work was focused on designing a convex margin-based classifier that maximizes accuracy subject to fairness constraints, and helps ensure compliance with a non-discrimination policy or law (e.g., a given $p\%$-rule)
+This work addresses an open question in that work, which asked for a general framework to solve an unsupervised learning task respecting the $p\%$-rule.

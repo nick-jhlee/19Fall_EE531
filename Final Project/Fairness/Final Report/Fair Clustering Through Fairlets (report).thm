@@ -1,28 +1,44 @@
 \defcounter {refsection}{0}\relax 
-\contentsline {problem}{{Problem}{2.1.{1}}{Node Classification Problem}}{5}{problem.2.1.1}% 
+\contentsline {definition}{{Definition}{1}{}}{5}{definition.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {problem}{{Problem}{2.1.{2}}{Graph Classification Problem}}{5}{problem.2.1.2}% 
+\contentsline {definition}{{Definition}{2}{}}{5}{definition.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {architecture}{{Architecture}{2.1.{1}}{GraphSAGE\cite {Hamilton2017}}}{5}{architecture.2.1.1}% 
+\contentsline {problem}{{Problem}{2.1.{1}}{$k$-center problem}}{5}{problem.2.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {architecture}{{Architecture}{2.1.{2}}{Graph Convolutional Networks(GCN)\cite {Kipf2017}}}{5}{architecture.2.1.2}% 
+\contentsline {problem}{{Problem}{2.1.{2}}{$k$-median problem}}{5}{problem.2.1.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {problem}{{Problem}{2.2.{1}}{\textsc {Graph Isomorphism (GI)}}}{6}{problem.2.2.1}% 
+\contentsline {definition}{{Definition}{3}{}}{6}{definition.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {theorem}{{Theorem}{2.2.{1}}{Babai, 2015}}{6}{theorem.2.2.1}% 
+\contentsline {definition}{{Definition}{4}{}}{6}{definition.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {lemma}{{Lemma}{3.1.{1}}{}}{9}{theorem.3.1.1}% 
+\contentsline {lemma}{{Lemma}{2.3.{1}}{}}{6}{theorem.2.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {theorem}{{Theorem}{3.1.{2}}{}}{9}{theorem.3.1.2}% 
+\contentsline {problem}{{Problem}{2.3.{1}}{$(t, k)-$fair center (resp. median) problem}}{7}{problem.2.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {lemma}{{Lemma}{3.2.{1}}{}}{10}{theorem.3.2.1}% 
+\contentsline {definition}{{Definition}{5}{}}{8}{definition.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {corollary}{{Corollary}{3.2.{1}.{1}}{}}{10}{corollary.3.2.1.1}% 
+\contentsline {lemma}{{Lemma}{3.1.{1}}{}}{8}{theorem.3.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {theorem}{{Theorem}{3.2.{2}}{Universal Approximation Theorem (Hornik, 1991)}}{10}{theorem.3.2.2}% 
+\contentsline {lemma}{{Lemma}{3.2.{1}}{}}{9}{theorem.3.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {lemma}{{Lemma}{3.3.{1}}{}}{11}{theorem.3.3.1}% 
+\contentsline {lemma}{{Lemma}{3.2.{2}}{}}{9}{theorem.3.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {corollary}{{Corollary}{3.3.{1}.{1}}{}}{11}{corollary.3.3.1.1}% 
+\contentsline {remark}{{Remark}{1}{}}{9}{remark.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {corollary}{{Corollary}{3.3.{1}.{2}}{}}{11}{corollary.3.3.1.2}% 
+\contentsline {theorem}{{Theorem}{3.2.{3}}{Gonzalez, 1985}}{9}{theorem.3.2.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {theorem}{{Theorem}{3.2.{4}}{}}{9}{theorem.3.2.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {definition}{{Definition}{6}{}}{9}{definition.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {problem}{{Problem}{3.2.{1}}{Minimum Cost Flow Problem (MCFP)}}{10}{problem.3.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {lemma}{{Lemma}{3.2.{5}}{}}{10}{theorem.3.2.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {theorem}{{Theorem}{3.2.{6}}{}}{10}{theorem.3.2.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {theorem}{{Theorem}{3.2.{7}}{Li \& Svensson, 2013}}{11}{theorem.3.2.7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {theorem}{{Theorem}{3.2.{8}}{}}{11}{theorem.3.2.8}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {theorem}{{Theorem}{3.2.{9}}{}}{11}{theorem.3.2.9}% 

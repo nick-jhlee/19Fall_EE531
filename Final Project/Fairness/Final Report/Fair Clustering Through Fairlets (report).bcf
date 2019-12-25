@@ -1995,35 +1995,20 @@
     <bcf:datasource type="file" datatype="bibtex">bibs/references.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">Scarselli2009a</bcf:citekey>
-    <bcf:citekey order="2">Wu2019</bcf:citekey>
-    <bcf:citekey order="3">Xu2019</bcf:citekey>
-    <bcf:citekey order="4">Scarselli2009b</bcf:citekey>
-    <bcf:citekey order="5">Scarselli2009a</bcf:citekey>
-    <bcf:citekey order="6">Lei2017</bcf:citekey>
-    <bcf:citekey order="7">Hamilton2017</bcf:citekey>
-    <bcf:citekey order="8">Kipf2017</bcf:citekey>
-    <bcf:citekey order="9">Ying2018</bcf:citekey>
-    <bcf:citekey order="10">Zhang2018</bcf:citekey>
-    <bcf:citekey order="11">Babai2016</bcf:citekey>
-    <bcf:citekey order="12">Weisfeiler1968</bcf:citekey>
-    <bcf:citekey order="13">Babai1979</bcf:citekey>
-    <bcf:citekey order="14">Cai1992</bcf:citekey>
-    <bcf:citekey order="15">Shervashidze2009</bcf:citekey>
-    <bcf:citekey order="16">Vishwanathan2010</bcf:citekey>
-    <bcf:citekey order="17">Shervashidze2009</bcf:citekey>
-    <bcf:citekey order="18">Vishwanathan2010</bcf:citekey>
-    <bcf:citekey order="19">Shervashidze2011</bcf:citekey>
-    <bcf:citekey order="20">Yanardag2015</bcf:citekey>
-    <bcf:citekey order="21">Zaheer2017</bcf:citekey>
-    <bcf:citekey order="22">Hornik1989</bcf:citekey>
-    <bcf:citekey order="23">Hornik1991</bcf:citekey>
-    <bcf:citekey order="24">Xu2018</bcf:citekey>
-    <bcf:citekey order="25">Hornik1991</bcf:citekey>
-    <bcf:citekey order="26">Kipf2017</bcf:citekey>
-    <bcf:citekey order="27">Hamilton2017</bcf:citekey>
-    <bcf:citekey order="28">Yanardag2015</bcf:citekey>
-    <bcf:citekey order="29">Wu2019</bcf:citekey>
+    <bcf:citekey order="1">Mehrabi2019</bcf:citekey>
+    <bcf:citekey order="2">Zhong2019</bcf:citekey>
+    <bcf:citekey order="3">Griggs1971</bcf:citekey>
+    <bcf:citekey order="4">Biddle2006</bcf:citekey>
+    <bcf:citekey order="5">uniform</bcf:citekey>
+    <bcf:citekey order="6">Feldman2015</bcf:citekey>
+    <bcf:citekey order="7">Zemel2013</bcf:citekey>
+    <bcf:citekey order="8">Zafar2017</bcf:citekey>
+    <bcf:citekey order="9">Rosner2019</bcf:citekey>
+    <bcf:citekey order="10">Gonzalez1985</bcf:citekey>
+    <bcf:citekey order="11">Li2013</bcf:citekey>
+    <bcf:citekey order="12">Lichman2013</bcf:citekey>
+    <bcf:citekey order="13">Gonzalez1985</bcf:citekey>
+    <bcf:citekey order="14">Arya2004</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

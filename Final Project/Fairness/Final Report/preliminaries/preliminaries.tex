@@ -1,138 +1,122 @@
 \chapter{Preliminaries}
 
-\section{GNNs}
+\section{(Classical) Clustering}
 
-Consider a graph, $G = (V, E)$, or a data with graph structure. Then each node $v \in V$ is associated with a {\it node feature vector}, denoted as $X_v$.
-There are two tasks of interest where GNN is commonly used:
+First, let us define what a "clustering" is:
+\begin{definition}
+Let $(M, d)$ be a metric space, equipped with the metric function $d$.
 
-\begin{problem}[Node Classification Problem]
-Each $v \in V$ has an associated label $y_v$.
+\noindent Given a set of points $X \subset M$, a {\it $k$-clustering} of $X$ is a partition of $X$ into $k$ disjoint subsets, $C_1, \dots, C_k$, called {\it clusters}.
+\end{definition}
 
-\noindent{\bf Goal:} Learn a representation vector $h_v$ of $v$ such that $y_v = f(h_v)$ i.e. such that $v$'s label can be predicted.
+An alternate formulation of definition would be to use something called an {\it assignment function}:
+
+\begin{definition}
+\begin{itemize}
+
+\item A {\it $k$-clustering} of $X$ is an {\it assignment function}, $\alpha: X \rightarrow [k]$.
+
+\item Each cluster $C_i$ is the preimage of $i$ under $\alpha$ i.e. $C_i = \alpha^{-1}(i)$
+
+\end{itemize}
+\end{definition}
+
+
+There are many ways to quantify "how good a given clustering is". Depending on the objective, different variants of clustering problems are possible.
+Here, we consider two specific types of $k$-clustering:
+
+\begin{problem}[$k$-center problem]
+Given a set of points $X \subset M$, find a $k$-clustering of $X$, denoted as $\mathcal{C}$, that minimizes
+$$\phi(X, \mathcal{C}) = \max_{C \in \mathcal{C}} \left[ \min_{c \in C} \max_{x \in C} d(x, c) \right]$$
+\end{problem}
+
+\begin{problem}[$k$-median problem]
+Given a set of points $X \subset M$, find a $k$-clustering of $X$, denoted as $\mathcal{C}$, that minimizes
+$$\psi(X, \mathcal{C}) = \sum_{C \in \mathcal{C}} \left[ \min_{c \in C} \sum_{x \in C} d(x, c) \right]$$
 \end{problem}
 
 
-\begin{problem}[Graph Classification Problem]
-A set of graphs $\{G_1, \dots, G_N\} \subset \mathcal{G}$ is given, along with their labels $\{y_1, \dots, y_N\} \subset \mathcal{Y}$.
+\section{Incorporating Fairness}
 
-\noindent{\bf Goal:} Learn a representation vector $h_G$ of $G$ such that $y_G = f(h_G)$ i.e. such that $G$'s label can be predicted. 
-\end{problem}
-
-
-Modern GNNs follow a {\bf neighborhood aggregation strategy} (message passing strategy) in which it iteratively updates the representation of a node by aggregating representations of its neighbors.
-
-Denote $h_v^{(k)}$ as the feature vector of node $v$ at the $k$-th iteration/layer, and let us initialize it as $h_v^{(0)} = X_v$.
-Then in this framework, the $k$-th layer of a GNN can be written as
-
-	$$a_v^{(k)} = \aggregate^{(k)} \left( \left\{ h_u^{(k - 1)} : u \in \mathcal{N}_G(v) \right\} \right)$$
-	$$h_v^{(k)} = \combine^{(k)} \left( h_v^{(k - 1)}, a_v^{(k)} \right)$$
-
-Different choices of $\aggregate^{(k)}$ and $\combine^{(k)}$ have led to different GNN variants/architectures.
-
-\begin{architecture}[GraphSAGE\cite{Hamilton2017}]
-	$$a_v^{(k)} = \MAX \left( \left\{ \relu \left( W h_u^{(k - 1)} \right) : u \in \mathcal{N}_G(v) \right\} \right)$$
-	$$h_v^{(k)} = W \left[ h_v^{(k - 1)}, a_v^{(k)} \right]$$
-\end{architecture}
-
-\begin{architecture}[Graph Convolutional Networks(GCN)\cite{Kipf2017}]
-	$$h_v^{(k)} = \relu \left( W \MEAN \left\{ h_u^{(k - 1)} : u \in \mathcal{N}_G(v) \cup \{v\} \right\} \right)$$
-\end{architecture}
+Now we ask ourselves how to incorporate fairness into above problems.
+To consider a "fair" version of clustering, we first have to identify the {\it unprotected attribute} and {\it protected attribute}.
+We shall consider the {\it coordinate} as the unprotected attribute. For simplicity, let us represent the protected attribute as the {\it coloring} of the points.
+To simplify things further (as in the paper), let us only consider the case of binary coloring.
 
 
-Observe that for node classification tasks, the final node representation $h_v^{(K)}$ is directly used for prediction.
-However for graph classification tasks, this is not the case i.e. some additional work has to be done to "process" the final node representation to obtain the entire graph's representation.
-This is done by aggregating the final node representations by $\readout$ function:
-	$$h_G = \readout \left( \left\{ h_v^{(K)} : v \in V \right\} \right)$$ 
-	
-($\readout$ can be a simple permutation invariant function, or something more sophisticated\cite{Ying2018}\cite{Zhang2018})
+For $Y \subset X$, let us denote:
+\begin{itemize}
+	\item $\chi : X \rightarrow \{\text{RED}, \text{BLUE}\}$ is the given binary coloring.
+	\item $R(Y) = \{x \in X : \chi(x) = \text{RED}\}$, $r(Y) = |R(Y)|$
+	\item $B(Y) = \{x \in X : \chi(x) = \text{BLUE}\}$, $b(Y) = |B(Y)|$
+\end{itemize}
 
-%---------------------------------------------------------
+\begin{definition}
+\begin{itemize}
+\item For $\emptyset \not= Y \subset X$, the {\it balance} of $Y$ is defined as:
+$$\balance(Y) = \min \left( \frac{r(Y)}{b(Y)}, \frac{b(Y)}{r(Y)} \right) \in [0, 1]$$
 
-\section{WL test}
+\item The {\it balance} of a clustering $\mathcal{C}$ is defined as:
+$$\balance(\mathcal{C}) = \min_{C \in \mathcal{C}} \balance(C)$$
 
-Now consider the following problem:
+\item If $\balance(Y)$ is $0$(resp. $1$), $Y$ is fully unbalanced(resp. perfectly balanced)
+\end{itemize}
+\end{definition}
 
-\begin{problem}[\textsc{Graph Isomorphism (GI)}]
-{\bf Input}:  Two finite graphs $G_1$ and $G_2$
-
-\noindent{\bf Question}: $G_1 \cong G_2$?
-\end{problem}
-
-This ubiquitous problem appears everywhere: from mathematical logic, theory of computation, machine learning, to seemingly unrelated fields such as computer vision.
-And this seemingly harmless problem has harassed researchers for decades!
-
-
-It is currently known that \textsc{GI} can be solved in quasipolynomial time {\it i.e.} in $O \left( 2^{O \left( \left( \log n \right)^c \right)} \right) (c > 0)$ time\cite{Babai2016}.
-The precise statement is as follows:
-	
-\begin{theorem}[Babai, 2015]
-The Graph Isomorphism problem ... can be solved in quasipolynomial time.
-\end{theorem}
-
-But this is not practical.
-In practice, other less efficient algorithms are used, such as algorithms by McKay (1981), Schmidt \& Druffel (1976), Ullman (1976)...etc.
-
-
-Here, we shall talk about one specific combinatorial algorithm for \textsc{GI}: the Weisfeiler-Lehman test of graph isomorphism\cite{Weisfeiler1968}, or simply WL test.
-
-WL test is proved to be successful (and computationally efficient) in isomorphism testing for a broad class of graphs\cite{Babai1979} There are some (corner) cases (ex. regular graphs) when the WL test fails\cite{Cai1992}.
-
-The reason the people working on GNNs got so interested in the WL test is that its 1-dimensional form (a.k.a. "na\"ive vertex refinement") is {\it based on neighbor aggregations}, analogous to the GNNs!
-(And that is why we'll be focused only on the 1-dim case)
-
-Let $(G, l)$ be a labeled graph i.e. a graph $G$ with an endowed node coloring $l : V(G) \rightarrow \Sigma$.
-($\Sigma$: arbitrary codomain)
-Here is the full algorithm for the 1-dim WL test\cite{Shervashidze2009}:
-
-\begin{figure}[hbt]
-	\includegraphics[height=7cm]{preliminaries/fig/wl-alg.png}
-	\caption{One iteration of 1-dim WL test}
-\end{figure}
-	(This why this 1-dim version is commonly called the {\it color refinement algorithm})
-
-To relate this to GNN, we need one more concept; graph kernel.
-
-Graph kernel is a kernel function that defines {\it inner product on graphs} \cite{Vishwanathan2010}.
-Intuitively, it is a function that measures the similarity of a pair of two given graphs.
-There are many different variants of graph kernels, but we'll be focused on the Weisfeiler-Lehman subtree kernel\cite{Shervashidze2009}.
-(Refer to \cite{Vishwanathan2010} for a extensive study of graph kernels and \cite{Shervashidze2011} for a more thorough explanation of the WL subtree kernel)
-
-The WL subtree kernel counts common {\it original and compressed labels} i.e. common multiset strings in two graphs, resulting from 1-dim WL test.
-Below shows the algorithm for calculating the WL subtree kernel:
-
-\begin{figure}[hbt]
-	\includegraphics[height=6cm]{preliminaries/fig/wl-kernel-alg.png}
-	\caption{One iteration of WL subtree kernel}
-\end{figure}
-
-And below figure is a visualization of one run of the WL subtree kernel:
-
+Let's call a clustering algorithm {\it colorblind} if it doesn't take the protected attribute (coloring) into its decision making. It is easy to make an instance (and it is actually common) where colorblind algorithm results in a very unfair clustering. (Unfair in the sense that the resulting clustering is very unbalanced)
 \begin{figure}[hbt!]
-\centering
-	\includegraphics[height=13cm]{preliminaries/fig/fig1.png}
-	\caption{Illustration of the computation of the WL subtree kernel (with respect to one iteration) for two graphs}
+	\centering
+	\includegraphics[height=3cm]{preliminaries/fig/fig1.png}
+	\caption{An instance where a colorblind clustering produces an unfair result}
+\end{figure}
+
+{\it Therefore a "fair" clustering must take into account not just the position of the centers, but also the assignment function!}
+
+
+
+\section{Fairlets and Fair Clustering}
+
+\begin{definition}
+Let $b, r$ be some integers such that $1 \leq b \leq r$ and $\gcd(b, r) = 1$.
+
+\begin{itemize}
+	\item A clustering $\mathcal{Y}$ of $X$ is called a {\it $(b, r)-$fairlet decomposition of $X$} if
+	(i) $\forall Y \in \mathcal{Y} \ |Y| \leq b + r$ and (ii) $\balance(\mathcal{Y}) = b/r = \balance(X)$
+	
+	\item Each $Y \in \mathcal{Y}$ is called a {\it $(b, r)-$fairlet}, or simply {\it fairlet}.
+
+\end{itemize}
+\end{definition}
+
+Intuitively, fairlet can be thought of as {\bf a group of points that are fair and cannot be split further into true subsets that are also fair}. Observe that the balance of the original set of points is preserved while keeping each cluster "small".
+
+\begin{lemma}
+Let $\balance(X) = b/r$ for some integers $1 \leq b \leq r$ such that $\gcd(b, r) = 1$.
+
+\noindent Then there exists a $(b, r)-$fairlet decomposition of $X$.
+\end{lemma}
+
+This lemma tells us that every fair solution to the clustering problem induces a set of minimal fairlets, as shown in below figure:
+
+\begin{figure}[hbt]
+	\centering
+	\includegraphics[height=2.6cm]{preliminaries/fig/fig2.png}
+	\caption{A decomposition of a fair clustering into fairlets with two red points and one blue point}
 \end{figure}
 
 \newpage
-\section{(Overview of) Theoretical Framework}
+Below is the final formulation of a "fair clustering":
 
-In other words, the WL subtree uses the counts of node labels at different iterations of the WL test as the feature vector of a graph.
-Intuitively, a node’s label at the $k$-th iteration of the 1-dim WL test represents a {\bf subtree structure of height k rooted at the node}.
+\begin{problem}[$(t, k)-$fair center (resp. median) problem]
+Partition $X$ into $\mathcal{C}$ such that
+	\begin{itemize}
+		\item $|\mathcal{C}| = k$
+		\item $\balance(\mathcal{C}) \geq t$
+		\item $\phi(X, \mathcal{C})$ (resp. $\psi(X, \mathcal{C})$) is minimized.
+	\end{itemize}
+\end{problem}
 
-Thus, the graph features considered by the WL subtree kernel are essentially counts of different rooted subtrees in the graph!
-
-\begin{figure}[hbt!]
-\centering
-	\includegraphics[height=4cm]{preliminaries/fig/fig2.png}
-	\caption{An overview of the theoretical framework}
-\end{figure}
-
-What this tells us is that if a GNN's aggregation function captures the {\it full multiset} of node neighbors, the GNN can capture the rooted subtrees in a recursive manner and be as powerful as the WL test (as shown in above figure).
-
-To analyze the representational power of a GNN, we ask ourselves the question: {\it when does a GNN map two nodes to the same location in the embedding space)? }
-{\bf Intuitively, a maximally powerful GNN maps two nodes to the same location only if they have identical subtree structures with identical features on the corresponding nodes.}
-Since subtree structures are defined recursively via node neighborhoods (above figure), we can reduce our analysis to the question whether a GNN maps two neighborhoods (i.e., two multisets) to the same embedding or representation.
-A maximally powerful GNN would never map two different neighborhoods, i.e., multisets of feature vectors, to the same representation.
-This means its aggregation scheme must be injective. Thus, we abstract a GNN’s aggregation scheme as a class of functions over multisets that their neural networks can represent, and analyze whether they are able to represent injective multiset functions.
-
-(Above paragraph is taken directly from the paper because it is the key point in this whole work!)
+Note that if fairness is not taken into account ($t = 0$), the assignment function is implicit through a set $\{c_1, \dots, c_k\}$ of centers i.e.
+	$$\alpha(x) = \argmin_{i \in [k]} d(x, c_i)$$
+and thus equivalent with the classical clustering algorithm.
+However with fairness taken into account, an explicit assignment function is required.

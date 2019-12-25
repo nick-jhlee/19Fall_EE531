@@ -5,22 +5,24 @@
 In summary,
 
 \begin{itemize}
-	\item Theoretical foundations for reasoning about the expressive power of GNNS
+	\item Reduction of fair clustering to classical clustering via fairlets
 
-	\item Tight bounds on the representational capacity of popular GNN variants. (cf. WL test)
+	\item Efficient approximation algorithms for finding fairlet decomposition
 
-	\item Designed a provably maximally powerful GNN under the neighborhood aggregation framework ({\it Graph Isomorphism Network})
-	
+	\item Showed that fairness can introduce a computational bottleneck
 \end{itemize}
 
 \section{Future research}
 
 Here are some possible directions for future research:
 
+
 \begin{itemize}
-	\item Different aggregators?
-	\item Go beyond neighborhood aggregation
-	\item Understand/improve the generalization properties of GNNs
-	\item What if the node features are continuous (uncountable)?
-	\item Better understanding of the optimization landscape
+	\item Improve the approximation ratio of the decomposition algorithms
+	\item Give stronger hardness results
+	\item Extend to the case where the protected class is not binary, but can take on multiple values
+	\item Improve the running time \\
+	(Down to nearly linear time! {\it Scalable Fair Clustering (ICML 2019)})
+	\item New fairness constraint? \\
+	(cf. {\it Proportionally Fair Clustering (ICML 2019)})
 \end{itemize}

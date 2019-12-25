@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.12.15)  23 DEC 2019 12:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.12.15)  26 DEC 2019 02:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1326,7 +1326,8 @@ thkerncmss.
 
 ] [5
 
-] [6
+]
+(./Fair Clustering Through Fairlets.toc) [6
 
 ] [7
 
@@ -1347,29 +1348,42 @@ thkerncmss.
 
 ] [15
 
-] [16
+]
+<fig1.png, id=258, 398.99063pt x 203.25937pt>
+File: fig1.png Graphic file (type png)
+<use fig1.png>
+Package pdftex.def Info: fig1.png  used on input line 304.
+(pdftex.def)             Requested size: 111.69835pt x 56.9055pt.
+ [16
+
+ <./fig1.PNG>] [17
 
 ]
-[17
+<fig2.png, id=277, 641.39626pt x 281.55188pt>
+File: fig2.png Graphic file (type png)
+<use fig2.png>
+Package pdftex.def Info: fig2.png  used on input line 352.
+(pdftex.def)             Requested size: 162.0418pt x 71.13188pt.
+ [18
 
-] [18
-
-] [19
+ <./fig2.PNG>] [19
 
 ] [20
 
-] [21
+]
+(./Fair Clustering Through Fairlets.toc) [21
 
-] (./Fair Clustering Through Fairlets.toc) [22
+] [22
 
 ] [23
 
+] [24
+
 ]
-[24
+(./Fair Clustering Through Fairlets.toc) [25
 
-] [25
-
-] [26
+]
+(./Fair Clustering Through Fairlets.toc) [26
 
 ] [27
 
@@ -1381,64 +1395,40 @@ thkerncmss.
 
 ] [31
 
-] [32
+]
+(./Fair Clustering Through Fairlets.toc) [32
 
 ] [33
 
-]
-<fig1.png, id=1039, 398.99063pt x 203.25937pt>
-File: fig1.png Graphic file (type png)
-<use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 304.
-(pdftex.def)             Requested size: 111.69835pt x 56.9055pt.
- [34
+] [34
 
- <./fig1.PNG>]
-File: fig1.png Graphic file (type png)
-<use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 304.
-(pdftex.def)             Requested size: 111.69835pt x 56.9055pt.
- [35
+] [35
 
 ]
-File: fig1.png Graphic file (type png)
-<use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 304.
-(pdftex.def)             Requested size: 111.69835pt x 56.9055pt.
+<fig3.png, id=449, 1244.39906pt x 492.33937pt>
+File: fig3.png Graphic file (type png)
+<use fig3.png>
+Package pdftex.def Info: fig3.png  used on input line 675.
+(pdftex.def)             Requested size: 287.64885pt x 113.81102pt.
+ [36
 
-[36
+ <./fig3.PNG>]
+[37
 
-] [37
+] [38
 
-]
-<fig2.png, id=1152, 641.39626pt x 281.55188pt>
-File: fig2.png Graphic file (type png)
-<use fig2.png>
-Package pdftex.def Info: fig2.png  used on input line 352.
-(pdftex.def)             Requested size: 162.0418pt x 71.13188pt.
- [38
+] [39
 
- <./fig2.PNG>]
-File: fig2.png Graphic file (type png)
-<use fig2.png>
-Package pdftex.def Info: fig2.png  used on input line 352.
-(pdftex.def)             Requested size: 162.0418pt x 71.13188pt.
- [39
+] [40
 
-]
-File: fig2.png Graphic file (type png)
-<use fig2.png>
-Package pdftex.def Info: fig2.png  used on input line 352.
-(pdftex.def)             Requested size: 162.0418pt x 71.13188pt.
- [40
-
-] [41
+] (./Fair Clustering Through Fairlets.toc) [41
 
 ] [42
 
 ] [43
 
-] [44
+]
+(./Fair Clustering Through Fairlets.toc) [44
 
 ] [45
 
@@ -1447,185 +1437,49 @@ Package pdftex.def Info: fig2.png  used on input line 352.
 
 ] [47
 
-] [48
-
-] [49
-
-] [50
-
-] [51
-
-] [52
-
-]
-[53
-
-] [54
-
-] [55
-
-] (./Fair Clustering Through Fairlets.toc) [56
-
-]
-(./Fair Clustering Through Fairlets.toc) [57
-
-] [58
-
-] [59
-
-] [60
-
-] [61
-
-] [62
-
-] [63
-
-]
-[64
-
-] [65
-
-] [66
-
-] [67
-
-] (./Fair Clustering Through Fairlets.toc) [68
-
-] [69
-
-] [70
-
-]
-[71
-
-] [72
-
-] [73
-
-] [74
-
-] [75
-
-] [76
-
-]
-<fig3.png, id=2244, 1244.39906pt x 492.33937pt>
-File: fig3.png Graphic file (type png)
-<use fig3.png>
-Package pdftex.def Info: fig3.png  used on input line 675.
-(pdftex.def)             Requested size: 287.64885pt x 113.81102pt.
- [77
-
- <./fig3.PNG>]
-File: fig3.png Graphic file (type png)
-<use fig3.png>
-Package pdftex.def Info: fig3.png  used on input line 675.
-(pdftex.def)             Requested size: 287.64885pt x 113.81102pt.
- [78
-
-] [79
-
-] [80
-
-] [81
-
-] [82
-
-]
-(./Fair Clustering Through Fairlets.toc) [83
-
-] [84
-
-] [85
-
-] [86
-
-] [87
-
-] [88
-
-]
-(./Fair Clustering Through Fairlets.toc) [89
-
-] [90
-
-] [91
-
-] [92
-
-] [93
-
-] [94
-
-]
-(./Fair Clustering Through Fairlets.toc) [95
-
-] [96
-
-] [97
-
-] [98
-
 ]
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <6> not available
 (Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 847.
 
-[99
-
-] [100
-
-] [101
-
-] [102
+[48
 
 ]
-<fig4.png, id=2973, 1358.82657pt x 650.43pt>
+<fig4.png, id=571, 1358.82657pt x 650.43pt>
 File: fig4.png Graphic file (type png)
 <use fig4.png>
 Package pdftex.def Info: fig4.png  used on input line 862.
 (pdftex.def)             Requested size: 326.91293pt x 156.49014pt.
- [103
+ [49
 
- <./fig4.PNG>]
-(./Fair Clustering Through Fairlets.toc) [104
+ <./fig4.PNG>] (./Fair Clustering Through Fairlets.toc) [50
 
-] [105
-
-] [106
-
-] [107
-
-] [108
-
-] [109
+] [51
 
 ]
-[110
+[52
 
-] [111
+] (./Fair Clustering Through Fairlets.toc) [53
 
-] (./Fair Clustering Through Fairlets.toc) [112
-
-] [113
+] [54
 
 ]
-<table.png, id=3292, 722.7pt x 634.62094pt>
+<table.png, id=636, 722.7pt x 634.62094pt>
 File: table.png Graphic file (type png)
 <use table.png>
-Package pdftex.def Info: table.png  used on input line 919.
+Package pdftex.def Info: table.png  used on input line 922.
 (pdftex.def)             Requested size: 239.60567pt x 210.40358pt.
- [114
+ [55
 
- <./table.PNG>] (./Fair Clustering Through Fairlets.toc) [115
+ <./table.PNG>]
+(./Fair Clustering Through Fairlets.toc) [56
 
-] [116
+] [57
 
-] [117
+] [58
 
 
-] [118
+] [59
 
 ]
 \tf@nav=\write7
@@ -1637,28 +1491,28 @@ Package pdftex.def Info: table.png  used on input line 919.
 \tf@snm=\write9
 \openout9 = `"Fair Clustering Through Fairlets.snm"'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 942.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 942.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 945.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 945.
 
 (./Fair Clustering Through Fairlets.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 942.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 942.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 945.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 945.
 Package rerunfilecheck Info: File `"Fair Clustering Through Fairlets".out' has 
 not changed.
-(rerunfilecheck)             Checksum: 405226A530FE329FFF5D18C726C9CF84;829.
+(rerunfilecheck)             Checksum: FF553C9FF79C2E309A29C4A166F4FF7C;829.
 Package logreq Info: Writing requests to '"Fair Clustering Through Fairlets".ru
 n.xml'.
 \openout1 = `"Fair Clustering Through Fairlets.run.xml"'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29184 strings out of 492616
- 564750 string characters out of 6132767
- 990168 words of memory out of 5000000
- 32241 multiletter control sequences out of 15000+600000
+ 29061 strings out of 492616
+ 563440 string characters out of 6132767
+ 989807 words of memory out of 5000000
+ 32236 multiletter control sequences out of 15000+600000
  20282 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,15n,65p,1159b,1812s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,15n,65p,1159b,1809s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/te
 xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/201
 8/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-d
@@ -1676,11 +1530,11 @@ lic/amsfonts/cm/cmsy7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmsy8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt
 8.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pf
 b>
-Output written on "Fair Clustering Through Fairlets.pdf" (118 pages, 749745 byt
-es).
+Output written on "Fair Clustering Through Fairlets.pdf" (59 pages, 534960 byte
+s).
 PDF statistics:
- 3584 PDF objects out of 4296 (max. 8388607)
- 3383 compressed objects within 34 object streams
- 271 named destinations out of 1000 (max. 500000)
+ 801 PDF objects out of 1000 (max. 8388607)
+ 686 compressed objects within 7 object streams
+ 153 named destinations out of 1000 (max. 500000)
  252 words of extra memory for PDF output out of 10000 (max. 10000000)
 

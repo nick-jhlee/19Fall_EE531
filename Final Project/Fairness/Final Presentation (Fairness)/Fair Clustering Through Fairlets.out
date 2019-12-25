@@ -3,10 +3,10 @@
 \BOOKMARK [2][]{Outline0.3}{Preliminaries}{}% 3
 \BOOKMARK [2][]{Outline0.4}{Fairlet decomposition and fair clustering}{}% 4
 \BOOKMARK [2][]{Outline0.5}{Algorithms}{}% 5
-\BOOKMARK [3][]{Outline0.5.1.57}{\(1, k\)-fair center problem}{Outline0.5}% 6
-\BOOKMARK [3][]{Outline0.5.2.68}{\(1/t', k\)-fair center problem}{Outline0.5}% 7
-\BOOKMARK [3][]{Outline0.5.3.83}{\(1/t', k\)-fair median problem}{Outline0.5}% 8
-\BOOKMARK [3][]{Outline0.5.4.89}{Hardness}{Outline0.5}% 9
+\BOOKMARK [3][]{Outline0.5.1.26}{\(1, k\)-fair center problem}{Outline0.5}% 6
+\BOOKMARK [3][]{Outline0.5.2.32}{\(1/t', k\)-fair center problem}{Outline0.5}% 7
+\BOOKMARK [3][]{Outline0.5.3.41}{\(1/t', k\)-fair median problem}{Outline0.5}% 8
+\BOOKMARK [3][]{Outline0.5.4.44}{Hardness}{Outline0.5}% 9
 \BOOKMARK [2][]{Outline0.6}{Experiments}{}% 10
 \BOOKMARK [2][]{Outline0.7}{Summary / Future Research}{}% 11
 \BOOKMARK [2][]{Outline0.8}{Summary of Fairness}{}% 12

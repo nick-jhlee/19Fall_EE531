@@ -342,11 +342,11 @@ Let $b, r$ be some integers such that $1 \leq b \leq r$ and $\gcd(b, r) = 1$.
 \end{alertblock} \pause
 
 \begin{itemize}
-	\item Fairlet can be thought of as a group of points that are fair and cannot be split further into true subsets that are also fair.
+	\item Intuitively, fairlet can be thought of as a group of points that are fair and cannot be split further into true subsets that are also fair.
 		\begin{figure}[hbt]
   			\includegraphics[height=2.5cm]{fig2.png}
 		\end{figure} \pause
-	\item Intuitively, the balance of the original set of points is preserved while keeping each cluster "small".
+	\item Observe that the balance of the original set of points is preserved while keeping each cluster "small".
 \end{itemize}
 
 \end{frame}
@@ -403,7 +403,7 @@ Partition $X$ into $\mathcal{C}$ such that
 \frametitle{Fairlet decomposition cost}
 
 \begin{itemize}
-	\item $\mathcal{Y} = \{ Y_1, \dots, Y_m \}$: a fairlet decomposition of $X$
+	\item $\mathcal{Y} = \{ Y_1, \dots, Y_m \}$ is a fairlet decomposition of $X$
 	\item $y_j \in Y_j$ is the {\it center} of $Y_j$. (Its choice is arbitrary)
 	\item $\beta : X \rightarrow [m]$ is the mapping from a point to the index of the fairlet to which it is mapped.
 \end{itemize}
@@ -465,7 +465,7 @@ This lemma, along with previous reasoning, shows that the fair clustering proble
 	\item Find a good fairlet decomposition ($\alpha$-approximation)
 	\item Solve the vanilla clustering problem on the centers of the fairlets ($\beta$-approximation)
 \end{itemize}
-, which is actually a $(\alpha + \beta)$-approximation in total!
+, which is a $(\alpha + \beta)$-approximation in total!
 
 \end{frame}
 
@@ -789,7 +789,7 @@ For any integer $t' \in \mathbb{N}$, the algorithm that first finds fairlets and
 	
 	\item How bad can it be, right? \pause
 	
-	\item Well, as the next theorem shows, ensuring fairness actually introduces a computational bottleneck! (and a very narrow one, indeed.) \pause
+	\item Well, as the next theorem shows, ensuring fairness introduces a computational bottleneck! (and a very narrow one, indeed.) \pause
 \end{itemize}
 
 \begin{block}{Theorem 16}
@@ -890,8 +890,11 @@ In summary, \pause
 \begin{itemize}
 	\item Improve the approximation ratio of the decomposition algorithms \pause
 	\item Give stronger hardness results \pause
-	\item Extend to the case where the protected class is not binary, but can take on multiple values \\
-	(Already done! {\it Scalable Fair Clustering (ICML 2019)})
+	\item Extend to the case where the protected class is not binary, but can take on multiple values \pause
+	\item Improve the running time \\
+	(Down to nearly linear time! {\it Scalable Fair Clustering (ICML 2019)}) \pause
+	\item New fairness constraint? \\
+	(cf. {\it Proportionally Fair Clustering (ICML 2019)})
 \end{itemize}
 
 \end{frame}

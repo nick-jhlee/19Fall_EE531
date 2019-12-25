@@ -1,28 +1,28 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [0] Config.pm:307> INFO - Logfile is 'Fair Clustering Through Fairlets.blg'
-[27] biber-MSWIN32:315> INFO - === 
-[56] Biber.pm:371> INFO - Reading 'Fair Clustering Through Fairlets.bcf'
-[141] Biber.pm:886> INFO - Using all citekeys in bib section 0
-[153] Biber.pm:4093> INFO - Processing section 0
-[165] Biber.pm:4254> INFO - Looking for bibtex format file 'References.bib' for section 0
-[172] bibtex.pm:1523> INFO - LaTeX decoding ...
-[208] bibtex.pm:1340> INFO - Found BibTeX data source 'References.bib'
-[220] Utils.pm:193> WARN - month field 'Jul' in entry 'Zhong2019' is not an integer - this will probably not sort properly.
-[291] Utils.pm:193> WARN - month field 'Aug' in entry 'Mehrabi2019' is not an integer - this will probably not sort properly.
-[307] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/kdd/2015' in entry 'Feldman2015' - ignoring (section 0)
-[308] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/icml/2013' in entry 'Zemel2013' - ignoring (section 0)
-[308] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/pkdd/2012-2' in entry 'Kamishima2012' - ignoring (section 0)
-[308] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/aistats/2017' in entry 'Zafar2017' - ignoring (section 0)
-[308] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/stoc/2013' in entry 'Li2013' - ignoring (section 0)
-[308] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/innovations/2012' in entry 'Dwork2012' - ignoring (section 0)
-[308] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/nips/2017' in entry 'Chierichetti2017' - ignoring (section 0)
-[308] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/nips/2016' in entry 'Hardt2016' - ignoring (section 0)
-[308] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/nips/2017' in entry 'Kusner2017' - ignoring (section 0)
-[309] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/aies/2018' in entry 'DBLP:conf/aies/FarnadiBG18' - ignoring (section 0)
-[332] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[332] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[332] Biber.pm:3921> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[332] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[353] bbl.pm:636> INFO - Writing 'Fair Clustering Through Fairlets.bbl' with encoding 'UTF-8'
-[360] bbl.pm:739> INFO - Output to Fair Clustering Through Fairlets.bbl
-[365] Biber.pm:110> INFO - WARNINGS: 12
+[35] biber-MSWIN32:315> INFO - === 
+[94] Biber.pm:371> INFO - Reading 'Fair Clustering Through Fairlets.bcf'
+[236] Biber.pm:886> INFO - Using all citekeys in bib section 0
+[249] Biber.pm:4093> INFO - Processing section 0
+[262] Biber.pm:4254> INFO - Looking for bibtex format file 'References.bib' for section 0
+[270] bibtex.pm:1523> INFO - LaTeX decoding ...
+[312] bibtex.pm:1340> INFO - Found BibTeX data source 'References.bib'
+[380] Utils.pm:193> WARN - month field 'Jul' in entry 'Zhong2019' is not an integer - this will probably not sort properly.
+[405] Utils.pm:193> WARN - month field 'Aug' in entry 'Mehrabi2019' is not an integer - this will probably not sort properly.
+[416] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/kdd/2015' in entry 'Feldman2015' - ignoring (section 0)
+[416] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/icml/2013' in entry 'Zemel2013' - ignoring (section 0)
+[416] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/pkdd/2012-2' in entry 'Kamishima2012' - ignoring (section 0)
+[416] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/aistats/2017' in entry 'Zafar2017' - ignoring (section 0)
+[416] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/stoc/2013' in entry 'Li2013' - ignoring (section 0)
+[416] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/innovations/2012' in entry 'Dwork2012' - ignoring (section 0)
+[416] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/nips/2017' in entry 'Chierichetti2017' - ignoring (section 0)
+[417] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/nips/2016' in entry 'Hardt2016' - ignoring (section 0)
+[417] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/nips/2017' in entry 'Kusner2017' - ignoring (section 0)
+[417] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/aies/2018' in entry 'DBLP:conf/aies/FarnadiBG18' - ignoring (section 0)
+[441] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[441] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[441] Biber.pm:3921> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[441] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[463] bbl.pm:636> INFO - Writing 'Fair Clustering Through Fairlets.bbl' with encoding 'UTF-8'
+[471] bbl.pm:739> INFO - Output to Fair Clustering Through Fairlets.bbl
+[476] Biber.pm:110> INFO - WARNINGS: 12
