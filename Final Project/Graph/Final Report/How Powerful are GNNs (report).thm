@@ -1,0 +1,28 @@
+\defcounter {refsection}{0}\relax 
+\contentsline {problem}{{Problem}{2.1.{1}}{Node Classification Problem}}{5}{problem.2.1.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {problem}{{Problem}{2.1.{2}}{Graph Classification Problem}}{5}{problem.2.1.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {architecture}{{Architecture}{2.1.{1}}{GraphSAGE\cite {Hamilton2017}}}{5}{architecture.2.1.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {architecture}{{Architecture}{2.1.{2}}{Graph Convolutional Networks(GCN)\cite {Kipf2017}}}{5}{architecture.2.1.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {problem}{{Problem}{2.2.{1}}{\textsc {Graph Isomorphism (GI)}}}{6}{problem.2.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {theorem}{{Theorem}{2.2.{1}}{Babai, 2015}}{6}{theorem.2.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {lemma}{{Lemma}{3.1.{1}}{}}{9}{theorem.3.1.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {theorem}{{Theorem}{3.1.{2}}{}}{9}{theorem.3.1.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {lemma}{{Lemma}{3.2.{1}}{}}{10}{theorem.3.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {corollary}{{Corollary}{3.2.{1}.{1}}{}}{10}{corollary.3.2.1.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {theorem}{{Theorem}{3.2.{2}}{Universal Approximation Theorem (Hornik, 1991)}}{10}{theorem.3.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {lemma}{{Lemma}{3.3.{1}}{}}{11}{theorem.3.3.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {corollary}{{Corollary}{3.3.{1}.{1}}{}}{11}{corollary.3.3.1.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {corollary}{{Corollary}{3.3.{1}.{2}}{}}{11}{corollary.3.3.1.2}% 

@@ -1,0 +1,78 @@
+\documentclass[a4paper, twoside]{report}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{listings}
+\usepackage{hyperref}
+\hypersetup{colorlinks=false}
+\usepackage{lscape}
+\usepackage{subfigure}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathrsfs}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[backend=biber]{biblatex}
+
+\addbibresource{bibs/references.bib}
+%% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+\usepackage{ntheorem}
+
+\theoremstyle{break}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem*{problem}{Problem}[section]
+\newtheorem*{architecture}{Architecture}[section]
+
+
+\DeclareMathOperator{\balance}{balance}
+\DeclareMathOperator{\argmin}{argmin}
+\DeclareMathOperator{\aggregate}{AGGREGATE}
+\DeclareMathOperator{\combine}{COMBINE}
+\DeclareMathOperator{\readout}{READOUT}
+\DeclareMathOperator{\MAX}{MAX}
+\DeclareMathOperator{\MEAN}{MEAN}
+\DeclareMathOperator{\relu}{ReLU}
+\DeclareMathOperator{\concat}{CONCAT}
+\DeclareMathOperator{\mlp}{MLP}
+\DeclareMathOperator{\hash}{HASH}
+\DeclareMathOperator{\gin}{GIN}
+
+\title{Contemplation on \\
+{\it How powerful are graph neural networks?}}
+
+\author{Junghyun Lee}
+% Update supervisor and other title stuff in title/title.tex
+
+\begin{document}
+\input{title/title.tex}
+
+\begin{abstract}
+This writing is an extensive outline of the paper {\it How powerful are graph neural networks?} by Xu {\it et al.}, including summaries of the theorems/lemmas and additional explanation on some of the literatures/points that the paper omitted.
+
+(This is to be accompanied by the pdf file used in the final presentation. Also, the theorem/lemma/corollary numbering is arbitrary, but the statements are exact.)
+\end{abstract}
+
+\tableofcontents
+\listoffigures
+
+\input{introduction/introduction.tex}
+\input{preliminaries/preliminaries.tex}
+\input{results/results.tex}
+\input{experiments/experiments.tex}
+\input{conclusion/conclusion.tex}
+%\input{appendix/appendix.tex}
+
+%1. Note that being powerful entails “being able to” map nodes with different subtrees to different representations. If a model is not capable of achieving this, then it’s intrinsically less powerful in distinguishing different graphs. In addition, to combat noise, we can simply regularize the mapping function to be locally smooth (e.g., by using Virtual Adversarial Training [1]). Nonetheless, in many graph classification applications including those in our experiments, the node features have specific meanings (e.g. an atom of certain types) and are not noisy.
+
+
+\printbibliography
+%\bibliographystyle{unsrt}
+%\bibliography{bibs/references}
+\addcontentsline{toc}{chapter}{Bibliography}
+
+\end{document}

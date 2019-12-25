@@ -1,6 +1,6 @@
 \PassOptionsToPackage{table}{xcolor}
-%\documentclass{beamer}
-\documentclass[handout]{beamer}
+\documentclass{beamer}
+%\documentclass[handout]{beamer}
 
 \setbeamertemplate{bibliography item}{\insertbiblabel}
 
@@ -183,7 +183,7 @@ A set of graphs $\{G_1, \dots, G_N\} \subset \mathcal{G}$ is given, along with t
 \begin{itemize}
 	\item Modern GNNs follow a \alert{neighborhood aggregation strategy} (message passing strategy) \pause
 	
-	\item Iteratively update the representation of a nodes by aggregating representations of its neighbors! \pause
+	\item Iteratively update the representation of nodes by aggregating the representations of their neighbors! \pause
 	
 	\item Let $h_v^{(k)}$ is the feature vector of node $v$ at the $k$-th iteration/layer, and let us initialize it as $h_v^{(0)} = X_v$. \pause
 	
@@ -344,13 +344,13 @@ Let $(G, l)$ be a labeled graph i.e. a graph $G$ with an endowed node coloring $
 \setbeamerfont{footnote}{size=\tiny}
 
 \begin{itemize}
-	\item \alert{Graph kernel}: kernel function that defines {\it inner product on graphs} \footfullcite{Vishwanathan2010}
+	\item \alert{Graph kernel}: kernel function that defines {\it inner product on graphs} \footfullcite{Gartner2003}\footfullcite{Kashima2003}\footfullcite{Vishwanathan2010}
 	
 (Function measuring the similarity of a pair of two given graphs) \pause
 
-	\item Some examples: {\it random walk} (G\"artner {\it et al.}, 2003; Borgwardt {\it et al.}, 2005), {\it marginalized} (Kashima {\it et al.}, 2003, 2004; Mah\'e {\it et al.}, 2004) \pause
+	\item ex. {\it random walk graph kernel}, {\it marginalized graph kernel} \pause
 	
-	\item \alert{Weisfeiler-Lehman subtree kernel}\footfullcite{Shervashidze2011}: counts common {\it original and compressed labels} (resulting from 1-dim WL test) in two graphs.
+	\item \alert{Weisfeiler-Lehman subtree kernel}\footfullcite{Shervashidze2009}\footfullcite{Shervashidze2011}: counts common {\it original and compressed labels} (resulting from 1-dim WL test) in two graphs.
 \end{itemize}
 
 \end{frame}

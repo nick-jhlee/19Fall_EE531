@@ -214,6 +214,41 @@
       \field{pages}{3837\bibrangedash 3845}
       \range{pages}{9}
     \endentry
+    \entry{Gartner2003}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=b4ecc68977acd188561a6e478c9d2c88}{%
+           family={G{ä}rtner},
+           familyi={G\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=396f43e4116eb90951c1b3c963d1501a}{%
+           family={Flach},
+           familyi={F\bibinitperiod},
+           given={Peter\bibnamedelima A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=9f8e62cad9a584bd2b54a6029652660f}{%
+           family={Wrobel},
+           familyi={W\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{f0ea7471c7a9d0c0fd8ec2325bfd16dd}
+      \strng{fullhash}{f0ea7471c7a9d0c0fd8ec2325bfd16dd}
+      \strng{bibnamehash}{f0ea7471c7a9d0c0fd8ec2325bfd16dd}
+      \strng{authorbibnamehash}{f0ea7471c7a9d0c0fd8ec2325bfd16dd}
+      \strng{authornamehash}{f0ea7471c7a9d0c0fd8ec2325bfd16dd}
+      \strng{authorfullhash}{f0ea7471c7a9d0c0fd8ec2325bfd16dd}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Computational Learning Theory and Kernel Machines, 16th Annual Conference on Computational Learning Theory and 7th Kernel Workshop, COLT/Kernel 2003, Washington, DC, USA, August 24-27, 2003, Proceedings}
+      \field{title}{On Graph Kernels: Hardness Results and Efficient Alternatives}
+      \field{year}{2003}
+      \true{nocite}
+      \field{pages}{129\bibrangedash 143}
+      \range{pages}{15}
+    \endentry
     \entry{Gilmer2017}{inproceedings}{}
       \name{author}{5}{}{%
         {{hash=4f550339f0337905aa634f39e1ba4833}{%
@@ -356,6 +391,41 @@
       \field{year}{1989}
       \true{nocite}
       \field{pages}{359\bibrangedash 366}
+      \range{pages}{8}
+    \endentry
+    \entry{Kashima2003}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=32fc6ae468e6012f7822868c12d9c044}{%
+           family={Kashima},
+           familyi={K\bibinitperiod},
+           given={Hisashi},
+           giveni={H\bibinitperiod}}}%
+        {{hash=853aab53429db7bfeab5a5d15f06a51d}{%
+           family={Tsuda},
+           familyi={T\bibinitperiod},
+           given={Koji},
+           giveni={K\bibinitperiod}}}%
+        {{hash=c28510f306df9f2fda376689c7195578}{%
+           family={Inokuchi},
+           familyi={I\bibinitperiod},
+           given={Akihiro},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{3a056e2882bfff110d6f4c7ffefefaf1}
+      \strng{fullhash}{3a056e2882bfff110d6f4c7ffefefaf1}
+      \strng{bibnamehash}{3a056e2882bfff110d6f4c7ffefefaf1}
+      \strng{authorbibnamehash}{3a056e2882bfff110d6f4c7ffefefaf1}
+      \strng{authornamehash}{3a056e2882bfff110d6f4c7ffefefaf1}
+      \strng{authorfullhash}{3a056e2882bfff110d6f4c7ffefefaf1}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Machine Learning, Proceedings of the Twentieth International Conference {(ICML} 2003), August 21-24, 2003, Washington, DC, {USA}}
+      \field{title}{Marginalized Kernels Between Labeled Graphs}
+      \field{year}{2003}
+      \true{nocite}
+      \field{pages}{321\bibrangedash 328}
       \range{pages}{8}
     \endentry
     \entry{Kipf2017}{inproceedings}{}
@@ -588,6 +658,36 @@
       \true{nocite}
       \field{pages}{61\bibrangedash 80}
       \range{pages}{20}
+    \endentry
+    \entry{Shervashidze2009}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=23497b31a021c2543718505ff30158c5}{%
+           family={Shervashidze},
+           familyi={S\bibinitperiod},
+           given={Nino},
+           giveni={N\bibinitperiod}}}%
+        {{hash=b056d3926c62e1c07a1c152a24c13085}{%
+           family={Borgwardt},
+           familyi={B\bibinitperiod},
+           given={Karsten\bibnamedelima M.},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{27d447b394862f5507a1dfd4a2c56cc0}
+      \strng{fullhash}{27d447b394862f5507a1dfd4a2c56cc0}
+      \strng{bibnamehash}{27d447b394862f5507a1dfd4a2c56cc0}
+      \strng{authorbibnamehash}{27d447b394862f5507a1dfd4a2c56cc0}
+      \strng{authornamehash}{27d447b394862f5507a1dfd4a2c56cc0}
+      \strng{authorfullhash}{27d447b394862f5507a1dfd4a2c56cc0}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Neural Information Processing Systems 22: 23rd Annual Conference on Neural Information Processing Systems 2009. Proceedings of a meeting held 7-10 December 2009, Vancouver, British Columbia, Canada}
+      \field{title}{Fast subtree kernels on graphs}
+      \field{year}{2009}
+      \true{nocite}
+      \field{pages}{1660\bibrangedash 1668}
+      \range{pages}{9}
     \endentry
     \entry{Shervashidze2011}{article}{}
       \name{author}{5}{}{%

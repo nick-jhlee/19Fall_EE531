@@ -2,32 +2,32 @@
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {1}{Introduction}{3}{0}{1}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {2}{Previous / Related Works}{5}{0}{2}
+\beamer@sectionintoc {2}{Previous / Related Works}{7}{0}{2}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {3}{Preliminaries}{7}{0}{3}
+\beamer@sectionintoc {3}{Preliminaries}{13}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {3}{1}{GNNs}{8}{0}{3}
+\beamer@subsectionintoc {3}{1}{GNNs}{14}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {3}{2}{WL test}{13}{0}{3}
+\beamer@subsectionintoc {3}{2}{WL test}{30}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {3}{3}{(Overview of) Theoretical Framework}{23}{0}{3}
+\beamer@subsectionintoc {3}{3}{(Overview of) Theoretical Framework}{64}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {4}{Representational capacity of GNNs}{26}{0}{4}
+\beamer@sectionintoc {4}{Representational capacity of GNNs}{73}{0}{4}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {5}{Graph Isomorphism Network (GIN)}{30}{0}{5}
+\beamer@sectionintoc {5}{Graph Isomorphism Network (GIN)}{86}{0}{5}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {6}{Less powerful, but still interesting GNNs}{37}{0}{6}
+\beamer@sectionintoc {6}{Less powerful, but still interesting GNNs}{107}{0}{6}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {6}{1}{1-Layer Perceptrons}{39}{0}{6}
+\beamer@subsectionintoc {6}{1}{1-Layer Perceptrons}{111}{0}{6}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {6}{2}{GCN}{42}{0}{6}
+\beamer@subsectionintoc {6}{2}{GCN}{118}{0}{6}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {6}{3}{GraphSAGE}{45}{0}{6}
+\beamer@subsectionintoc {6}{3}{GraphSAGE}{127}{0}{6}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {7}{Experiments}{49}{0}{7}
+\beamer@sectionintoc {7}{Experiments}{139}{0}{7}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {8}{Summary / Future Research}{54}{0}{8}
+\beamer@sectionintoc {8}{Summary / Future Research}{147}{0}{8}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {9}{Summary of GNNs}{57}{0}{9}
+\beamer@sectionintoc {9}{Summary of GNNs}{157}{0}{9}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {10}{References}{60}{0}{10}
+\beamer@sectionintoc {10}{References}{160}{0}{10}

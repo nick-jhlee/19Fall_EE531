@@ -2,32 +2,35 @@
 [0] Config.pm:307> INFO - Logfile is 'How Powerful are GNNs.blg'
 [27] biber-MSWIN32:315> INFO - === 
 [55] Biber.pm:371> INFO - Reading 'How Powerful are GNNs.bcf'
-[138] Biber.pm:886> INFO - Using all citekeys in bib section 0
-[150] Biber.pm:4093> INFO - Processing section 0
-[162] Biber.pm:4254> INFO - Looking for bibtex format file 'References.bib' for section 0
-[170] bibtex.pm:1523> INFO - LaTeX decoding ...
-[223] bibtex.pm:1340> INFO - Found BibTeX data source 'References.bib'
-[358] Utils.pm:193> WARN - month field 'Jan' in entry 'Wu2019' is not an integer - this will probably not sort properly.
-[411] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/icml/2017' in entry 'Lei2017' - ignoring (section 0)
-[411] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/nips/2017' in entry 'Hamilton2017' - ignoring (section 0)
-[412] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/iclr/2017' in entry 'Kipf2017' - ignoring (section 0)
-[412] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/iclr/2019' in entry 'Xu2019' - ignoring (section 0)
-[412] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/aaai/2018' in entry 'Zhang2018' - ignoring (section 0)
-[412] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/nips/2018' in entry 'Ying2018' - ignoring (section 0)
-[412] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/stoc/2016' in entry 'Babai2016' - ignoring (section 0)
-[412] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/focs/FOCS20' in entry 'Babai1979' - ignoring (section 0)
-[412] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/nips/2017' in entry 'Zaheer2017' - ignoring (section 0)
-[413] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/icml/2018' in entry 'Xu2018' - ignoring (section 0)
-[413] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/kdd/2015' in entry 'Yanardag2015' - ignoring (section 0)
-[413] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/icml/2017' in entry 'Gilmer2017' - ignoring (section 0)
-[413] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/iclr/2014' in entry 'Bruna2014' - ignoring (section 0)
-[413] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/nips/2016' in entry 'Defferrard2016' - ignoring (section 0)
-[413] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/aaai/2018' in entry 'Li2018' - ignoring (section 0)
-[414] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/nips/2016' in entry 'Atwood2016' - ignoring (section 0)
-[443] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[443] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[443] Biber.pm:3921> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[443] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[466] bbl.pm:636> INFO - Writing 'How Powerful are GNNs.bbl' with encoding 'UTF-8'
-[477] bbl.pm:739> INFO - Output to How Powerful are GNNs.bbl
-[481] Biber.pm:110> INFO - WARNINGS: 17
+[149] Biber.pm:886> INFO - Using all citekeys in bib section 0
+[161] Biber.pm:4093> INFO - Processing section 0
+[173] Biber.pm:4254> INFO - Looking for bibtex format file 'References.bib' for section 0
+[182] bibtex.pm:1523> INFO - LaTeX decoding ...
+[241] bibtex.pm:1340> INFO - Found BibTeX data source 'References.bib'
+[336] Utils.pm:193> WARN - month field 'Jan' in entry 'Wu2019' is not an integer - this will probably not sort properly.
+[412] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/icml/2017' in entry 'Lei2017' - ignoring (section 0)
+[413] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/nips/2017' in entry 'Hamilton2017' - ignoring (section 0)
+[413] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/iclr/2017' in entry 'Kipf2017' - ignoring (section 0)
+[413] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/iclr/2019' in entry 'Xu2019' - ignoring (section 0)
+[413] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/aaai/2018' in entry 'Zhang2018' - ignoring (section 0)
+[413] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/nips/2018' in entry 'Ying2018' - ignoring (section 0)
+[414] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/stoc/2016' in entry 'Babai2016' - ignoring (section 0)
+[414] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/focs/FOCS20' in entry 'Babai1979' - ignoring (section 0)
+[414] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/nips/2017' in entry 'Zaheer2017' - ignoring (section 0)
+[414] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/icml/2018' in entry 'Xu2018' - ignoring (section 0)
+[414] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/kdd/2015' in entry 'Yanardag2015' - ignoring (section 0)
+[414] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/icml/2017' in entry 'Gilmer2017' - ignoring (section 0)
+[414] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/iclr/2014' in entry 'Bruna2014' - ignoring (section 0)
+[415] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/nips/2016' in entry 'Defferrard2016' - ignoring (section 0)
+[415] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/aaai/2018' in entry 'Li2018' - ignoring (section 0)
+[415] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/nips/2016' in entry 'Atwood2016' - ignoring (section 0)
+[415] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/nips/2009' in entry 'Shervashidze2009' - ignoring (section 0)
+[415] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/colt/2003' in entry 'Gartner2003' - ignoring (section 0)
+[415] Utils.pm:193> WARN - I didn't find a database entry for crossref 'DBLP:conf/icml/2003' in entry 'Kashima2003' - ignoring (section 0)
+[447] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[447] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[447] Biber.pm:3921> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[447] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[472] bbl.pm:636> INFO - Writing 'How Powerful are GNNs.bbl' with encoding 'UTF-8'
+[484] bbl.pm:739> INFO - Output to How Powerful are GNNs.bbl
+[488] Biber.pm:110> INFO - WARNINGS: 20
